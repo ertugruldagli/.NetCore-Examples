@@ -1,0 +1,15 @@
+C:\UCC08\Projects\CS101\05_Flow\bin\Debug\net6.0\05_Flow.exe
+C:\UCC08\Projects\CS101\05_Flow\bin\Debug\net6.0\05_Flow.deps.json
+C:\UCC08\Projects\CS101\05_Flow\bin\Debug\net6.0\05_Flow.runtimeconfig.json
+C:\UCC08\Projects\CS101\05_Flow\bin\Debug\net6.0\05_Flow.dll
+C:\UCC08\Projects\CS101\05_Flow\bin\Debug\net6.0\05_Flow.pdb
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.csproj.AssemblyReference.cache
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.AssemblyInfoInputs.cache
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.AssemblyInfo.cs
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.dll
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\refint\05_Flow.dll
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.pdb
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\05_Flow.genruntimeconfig.cache
+C:\UCC08\Projects\CS101\05_Flow\obj\Debug\net6.0\ref\05_Flow.dll

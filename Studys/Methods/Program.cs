@@ -34,12 +34,19 @@
         //int uk = Convert.ToInt32(Console.ReadLine());
         //Hesapla(kk,uk);
 
-        Hesapla(5,6);
+        //Hesapla(5,6);
 
 
         #endregion
 
         #region 3. geriye deger döndüren parametre almayan
+
+        int sonuc=HesaplaPmsiz(); //sonuc =alan;
+        Console.WriteLine("Alan: {0}", sonuc);
+
+        #endregion
+
+        #region 4. geriye deger döndüren parametre alan
 
 
         #endregion
@@ -77,5 +84,19 @@
 
         Console.WriteLine("alan: {0}", alan);
     }
-    #endregion
+
+    private static int HesaplaPmsiz()
+    {
+        Console.WriteLine("kısa kenar giriniz: ");
+        int kk = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("uzun kenar giriniz: ");
+        int uk = Convert.ToInt32(Console.ReadLine());
+
+        int alan = kk * uk;
+
+        return alan;
+
+        #endregion
+    }
 }

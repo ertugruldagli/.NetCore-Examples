@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -41,19 +43,24 @@
 
         #region 3. geriye deger döndüren parametre almayan
 
-        int sonuc=HesaplaPmsiz(); //sonuc = alan (return'den gelen)
-        Console.WriteLine("Alan: {0}", sonuc);
+        //int sonuc=HesaplaPmsiz(); //sonuc = alan (return'den gelen)
+        //Console.WriteLine("Alan: {0}", sonuc);
 
         #endregion
 
         #region 4. geriye deger döndüren parametre alan
 
+        //Console.WriteLine("kısa kenar giriniz: ");
+        //int kk = Convert.ToInt32(Console.ReadLine());
+
+        //Console.WriteLine("uzun kenar giriniz: ");
+        //int uk = Convert.ToInt32(Console.ReadLine());
+
+        //Console.WriteLine("alan: {0}", HesaplaPrmli(kk,uk));
+
+        HesaplaPrmli(10,30);
 
         #endregion
-
-
-
-
 
         Console.ReadKey();  
     }
@@ -99,5 +106,17 @@
         return alan;
 
         #endregion
+    }
+
+    private static int HesaplaPrmli(int kisa, int uzun)
+    {
+        Console.WriteLine("kısa kenar giriniz: " + kisa);
+        Console.WriteLine("uzun kenar giriniz: " + uzun);
+
+        int alan = Convert.ToInt32(kisa * uzun);
+
+        Console.WriteLine("alan: {0}", alan);
+
+        return alan;
     }
 }

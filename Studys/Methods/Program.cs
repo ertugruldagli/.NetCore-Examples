@@ -234,6 +234,10 @@ internal class Program
     {
         return a + b;
     }
+    private static int toplamaIslemi(int a, int b, int c)
+    {
+        return a + b+c;
+    }
     private static int toplamaIslemi(int a, int b,int c, int d)
     {
         return a + b+c+d;

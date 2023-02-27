@@ -63,18 +63,35 @@ internal class Program
 
         #endregion
 
-        #region workout
+        #region workout01
         //uygun method yapısı kullanarak dört işlem gerçekleştiriniz. Birden fazla method tanımlayabilirsiniz.
 
-        Console.WriteLine("s1 giriniz: ");
-        int s1 = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("s1 giriniz: ");
+        //int s1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("s2 giriniz: ");
-        int s2 = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("s2 giriniz: ");
+        //int s2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("sonuc: "+ Topla(s1,s2));
+        //Console.WriteLine("sonuc: "+ Topla(s1,s2));
 
-        Hepsi(s1,s2);
+        //Hepsi(s1,s2);
+
+        #endregion
+
+        #region workout01-ek
+        Console.WriteLine("kısa kenar giriniz: ");
+        int kk = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("uzun kenar giriniz: ");
+        int uk = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("işlem türünü seçiniz:");
+        string secenek= Console.ReadLine();
+
+        DortIslem(kk, uk, secenek);
+
+        Console.WriteLine("işlem türü: "+secenek);
+        Console.WriteLine("sonuc :{0}", DortIslem(kk, uk, secenek));
 
         #endregion
 
@@ -170,6 +187,37 @@ internal class Program
         Console.WriteLine("cikar: " + cikar);
         Console.WriteLine("bolme: " + bolme);
         Console.WriteLine("carpma: " + carpma);
+    }
+
+
+    private static int DortIslem(int sayi1, int sayi2, string secenek)
+    {
+        int sonuc = 0;
+        if (secenek == "+")
+        {
+            sonuc = sayi1 + sayi2;
+        }else if(secenek == "-")
+        {
+            sonuc = sayi1 - sayi2;
+        }
+        else if(secenek == "*")
+        {
+            sonuc = sayi1 * sayi2;
+        }
+        else
+        {
+            try
+            {
+                sonuc = sayi1 / sayi2;
+            }
+            catch
+            {
+                Console.WriteLine("sayi2 degeri 0 olamaz!");
+
+                sonuc=sayi2/sayi1;
+            }
+        }
+            return sonuc;
     }
     
 }

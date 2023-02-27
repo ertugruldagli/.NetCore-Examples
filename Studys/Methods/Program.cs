@@ -159,7 +159,6 @@ internal class Program
     }
     
 
-
     private static void Hepsi(int a, int b)
     {
         int toplam = a + b;

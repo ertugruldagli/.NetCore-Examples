@@ -25,12 +25,12 @@
         else if (sec=="T" )
         {
             Console.WriteLine("bir sayi giriniz: ");
-            int k = Convert.ToInt32(Console.ReadLine());
-            TekCift(k);
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            
+
+            Console.WriteLine(  TekCift(sayi));
 
         }
-
-
     }
     public static string TekCift(int sayi)
     {

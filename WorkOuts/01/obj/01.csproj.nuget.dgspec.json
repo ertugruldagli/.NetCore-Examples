@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UCC08\\Projects\\.NetCore-Examples\\Wrkout00\\Wrkout00.csproj": {}
+    "C:\\UCC08\\Projects\\.NetCore-Examples\\WorkOuts\\01\\01.csproj": {}
   },
   "projects": {
-    "C:\\UCC08\\Projects\\.NetCore-Examples\\Wrkout00\\Wrkout00.csproj": {
+    "C:\\UCC08\\Projects\\.NetCore-Examples\\WorkOuts\\01\\01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UCC08\\Projects\\.NetCore-Examples\\Wrkout00\\Wrkout00.csproj",
-        "projectName": "Wrkout00",
-        "projectPath": "C:\\UCC08\\Projects\\.NetCore-Examples\\Wrkout00\\Wrkout00.csproj",
+        "projectUniqueName": "C:\\UCC08\\Projects\\.NetCore-Examples\\WorkOuts\\01\\01.csproj",
+        "projectName": "01",
+        "projectPath": "C:\\UCC08\\Projects\\.NetCore-Examples\\WorkOuts\\01\\01.csproj",
         "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
-        "outputPath": "C:\\UCC08\\Projects\\.NetCore-Examples\\Wrkout00\\obj\\",
+        "outputPath": "C:\\UCC08\\Projects\\.NetCore-Examples\\WorkOuts\\01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

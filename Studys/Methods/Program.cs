@@ -107,24 +107,7 @@ internal class Program
 
         #endregion
 
-        #region workout02 - menu
-
-        //ekrana seçenekli bir menü gelecek. seçeneklerim 1- hesap makinesi, 2-tek/çift kontrol.  buna göre methoları hazırlayınız.. menüyü ekrana getirme hesap mak. tekcift kontrol
-
-        Console.WriteLine("kısa kenar giriniz: ");
-        int kk = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("uzun kenar giriniz: ");
-        int uk = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("işlem türünü seçiniz:");
-        string secenek = Console.ReadLine();
-
        
-
-
-
-        #endregion
 
 
 
@@ -269,62 +252,6 @@ internal class Program
         return a + b + c + d;
     }
 
-
-    public static void Menu()
-    {
-        
-        Console.WriteLine("menu seçiniz: ");
-        string kontrol=Console.ReadLine();
-
-        if (kontrol == "a")
-        {
-
-        }
-    }
-    public static void HesapMak(int sayi1, int sayi2, string secenek)
-    {
-        int sonuc = 0;
-        if (secenek == "+")
-        {
-            sonuc = sayi1 + sayi2;
-        }
-        else if (secenek == "-")
-        {
-            sonuc = sayi1 - sayi2;
-        }
-        else if (secenek == "*")
-        {
-            sonuc = sayi1 * sayi2;
-        }
-        else
-        {
-            try
-            {
-                sonuc = sayi1 / sayi2;
-            }
-            catch
-            {
-                Console.WriteLine("sayi2 degeri 0 olamaz!");
-
-                sonuc = sayi2 / sayi1;
-            }
-        }
-       
-    }
-
-    public static string TekCift(int sayi)
-    {
-        string a;
-        if (sayi % 2 == 0)
-        {
-             a = "sayi çiftir.";
-        }
-        else
-        {
-             a = "tektir";
-        }
-        return a ;
-    }
 
 
 }

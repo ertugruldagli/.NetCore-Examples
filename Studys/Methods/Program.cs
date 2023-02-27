@@ -27,7 +27,19 @@
 
         #region 2. geriye deger döndürmeyen ve parametre alan
 
+        //Console.WriteLine("kısa kenar giriniz: ");
+        //int kk = Convert.ToInt32(Console.ReadLine());
+
+        //Console.WriteLine("uzun kenar giriniz: ");
+        //int uk = Convert.ToInt32(Console.ReadLine());
+        //Hesapla(kk,uk);
+
         Hesapla(5,6);
+
+
+        #endregion
+
+        #region 3. geriye deger döndüren parametre almayan
 
 
         #endregion

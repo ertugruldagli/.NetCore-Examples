@@ -41,7 +41,7 @@
 
         #region 3. geriye deger döndüren parametre almayan
 
-        int sonuc=HesaplaPmsiz(); //sonuc =alan;
+        int sonuc=HesaplaPmsiz(); //sonuc = alan (return'den gelen)
         Console.WriteLine("Alan: {0}", sonuc);
 
         #endregion
@@ -87,6 +87,7 @@
 
     private static int HesaplaPmsiz()
     {
+        //geriye deger donduren methodlar veya functionlar  da mutlaka return tanımı olmalıdır.
         Console.WriteLine("kısa kenar giriniz: ");
         int kk = Convert.ToInt32(Console.ReadLine());
 

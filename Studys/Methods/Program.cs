@@ -120,7 +120,7 @@ internal class Program
         Console.WriteLine("işlem türünü seçiniz:");
         string secenek = Console.ReadLine();
 
-         HesapMak(kk, uk, secenek);
+       
 
 
 
@@ -272,7 +272,14 @@ internal class Program
 
     public static void Menu()
     {
+        
+        Console.WriteLine("menu seçiniz: ");
+        string kontrol=Console.ReadLine();
 
+        if (kontrol == "a")
+        {
+
+        }
     }
     public static void HesapMak(int sayi1, int sayi2, string secenek)
     {

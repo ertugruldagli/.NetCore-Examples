@@ -79,21 +79,32 @@ internal class Program
         #endregion
 
         #region workout01-ek
-        Console.WriteLine("kısa kenar giriniz: ");
-        int kk = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("kısa kenar giriniz: ");
+        //int kk = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("uzun kenar giriniz: ");
-        int uk = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("uzun kenar giriniz: ");
+        //int uk = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("işlem türünü seçiniz:");
-        string secenek= Console.ReadLine();
+        //Console.WriteLine("işlem türünü seçiniz:");
+        //string secenek= Console.ReadLine();
 
-        DortIslem(kk, uk, secenek);
+        //DortIslem(kk, uk, secenek);
 
-        Console.WriteLine("işlem türü: "+secenek);
-        Console.WriteLine("sonuc :{0}", DortIslem(kk, uk, secenek));
+        //Console.WriteLine("işlem türü: "+secenek);
+        //Console.WriteLine("sonuc :{0}", DortIslem(kk, uk, secenek));
 
         #endregion
+
+        #region methodlarda aşırı yüklenme
+
+        Console.WriteLine("2li toplama:{0}", toplamaIslemi(45,45));
+        Console.WriteLine("3li toplama:{0}", toplamaIslemi(45, 45,45));
+        Console.WriteLine("4li toplama:{0}", toplamaIslemi(45, 45,45,45));
+
+
+
+        #endregion
+
 
         Console.ReadKey();  
     }
@@ -175,7 +186,6 @@ internal class Program
         return a / b;
     }
     
-
     private static void Hepsi(int a, int b)
     {
         int toplam = a + b;
@@ -188,7 +198,6 @@ internal class Program
         Console.WriteLine("bolme: " + bolme);
         Console.WriteLine("carpma: " + carpma);
     }
-
 
     private static int DortIslem(int sayi1, int sayi2, string secenek)
     {
@@ -219,5 +228,17 @@ internal class Program
         }
             return sonuc;
     }
-    
+
+
+    private static int toplamaIslemi(int a,int b)
+    {
+        return a + b;
+    }
+    private static int toplamaIslemi(int a, int b,int c, int d)
+    {
+        return a + b+c+d;
+    }
+
+
+
 }

@@ -4,10 +4,10 @@
     public static void Menu()
     {
         string sec;
-        Console.WriteLine("Hangisini Seçmek İstersiniz\n Hesap makinesi için: H \n TekCift Sayilar için : T");
+        Console.WriteLine("Hangisini Seçmek İstersiniz\n Hesap makinesi için: H/h \n TekCift Sayilar için : T/t");
         sec= Console.ReadLine();
 
-        if(sec=="H"){
+        if(sec=="H"|| sec=="h"){
             Console.WriteLine("1.sayi giriniz: ");
             int kk = Convert.ToInt32(Console.ReadLine());
 
@@ -22,13 +22,13 @@
             Console.WriteLine("işlem türü: " + secenek);
             Console.WriteLine("sonuc :{0}", HesapMak(kk, uk, secenek));
         }
-        else if (sec=="T" )
+        else if (sec=="T" || sec=="t" )
         {
             Console.WriteLine("bir sayi giriniz: ");
             int sayi = Convert.ToInt32(Console.ReadLine());
             
 
-            Console.WriteLine(  TekCift(sayi));
+            Console.WriteLine(TekCift(sayi));
 
         }
     }

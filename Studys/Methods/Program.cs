@@ -3,6 +3,144 @@ using System.Security.Cryptography;
 
 internal class Program
 {
+    #region Methodlar
+
+    private static void Hesapla()
+    {
+        Console.WriteLine("kısa kenar giriniz: ");
+        int kk = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("uzun kenar giriniz: ");
+        int uk = Convert.ToInt32(Console.ReadLine());
+
+        int alan = Convert.ToInt32(kk * uk);
+
+        Console.WriteLine("alan: {0}", alan);
+
+    }
+
+    private static void Hesapla(int kisa, int uzun)
+    {
+        Console.WriteLine("kısa kenar giriniz: " + kisa);
+        Console.WriteLine("uzun kenar giriniz: " + uzun);
+
+
+        int alan = Convert.ToInt32(kisa * uzun);
+
+        Console.WriteLine("alan: {0}", alan);
+    }
+
+    private static int HesaplaPmsiz()
+    {
+        //geriye deger donduren methodlar veya functionlar  da mutlaka return tanımı olmalıdır.
+        Console.WriteLine("kısa kenar giriniz: ");
+        int kk = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("uzun kenar giriniz: ");
+        int uk = Convert.ToInt32(Console.ReadLine());
+
+        int alan = kk * uk;
+
+        return alan;
+
+        #endregion
+    }
+
+    private static int HesaplaPrmli(int kisa, int uzun)
+    {
+        Console.WriteLine("kısa kenar giriniz: " + kisa);
+        Console.WriteLine("uzun kenar giriniz: " + uzun);
+
+        int alan = Convert.ToInt32(kisa * uzun);
+
+        Console.WriteLine("alan: {0}", alan);
+
+        return alan;
+    }
+
+
+    private static int Topla(int a, int b)
+    {
+
+        return a + b;
+    }
+    private static int Cikarma(int a, int b)
+    {
+
+        return a - b;
+    }
+    private static int Carpma(int a, int b)
+    {
+
+        return a * b;
+    }
+    private static int Bolme(int a, int b)
+    {
+
+        return a / b;
+    }
+
+    private static void Hepsi(int a, int b)
+    {
+        int toplam = a + b;
+        int cikar = a - b;
+        int bolme = a / b;
+        int carpma = a * b;
+
+        Console.WriteLine("toplami: " + toplam);
+        Console.WriteLine("cikar: " + cikar);
+        Console.WriteLine("bolme: " + bolme);
+        Console.WriteLine("carpma: " + carpma);
+    }
+
+    private static int DortIslem(int sayi1, int sayi2, string secenek)
+    {
+        int sonuc = 0;
+        if (secenek == "+")
+        {
+            sonuc = sayi1 + sayi2;
+        }
+        else if (secenek == "-")
+        {
+            sonuc = sayi1 - sayi2;
+        }
+        else if (secenek == "*")
+        {
+            sonuc = sayi1 * sayi2;
+        }
+        else
+        {
+            try
+            {
+                sonuc = sayi1 / sayi2;
+            }
+            catch
+            {
+                Console.WriteLine("sayi2 degeri 0 olamaz!");
+
+                sonuc = sayi2 / sayi1;
+            }
+        }
+        return sonuc;
+    }
+
+
+    private static int toplamaIslemi(int a, int b)
+    {
+        return a + b;
+    }
+    private static int toplamaIslemi(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+    private static int toplamaIslemi(int a, int b, int c, int d)
+    {
+        return a + b + c + d;
+    }
+
+
+
+
     private static void Main(string[] args)
     {
         #region dikdörtgen alan hesabı
@@ -97,11 +235,17 @@ internal class Program
 
         #region methodlarda aşırı yüklenme
 
-        Console.WriteLine("2li toplama:{0}", toplamaIslemi(45,45));
-        Console.WriteLine("3li toplama:{0}", toplamaIslemi(45, 45,45));
-        Console.WriteLine("4li toplama:{0}", toplamaIslemi(45, 45,45,45));
+        //Console.WriteLine("2li toplama:{0}", toplamaIslemi(45,45));
+        //Console.WriteLine("3li toplama:{0}", toplamaIslemi(45, 45,45));
+        //Console.WriteLine("4li toplama:{0}", toplamaIslemi(45, 45,45,45));
 
 
+
+        #endregion
+
+        #region workout02 - menu
+
+        //ekrana seçenekli bir menü gelecek. seçeneklerim 1- hesap makinesi, 2-tek/çift kontrol.  buna göre methoları hazırlayınız
 
         #endregion
 
@@ -109,140 +253,7 @@ internal class Program
         Console.ReadKey();  
     }
 
-    #region Methodlar
-
-    private static void Hesapla()
-    {
-        Console.WriteLine("kısa kenar giriniz: ");
-        int kk =Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("uzun kenar giriniz: ");
-        int uk = Convert.ToInt32(Console.ReadLine());
-
-        int alan = Convert.ToInt32(kk * uk);
-
-        Console.WriteLine("alan: {0}",alan);
-
-    }
-
-    private static void Hesapla(int kisa, int uzun)
-    {
-        Console.WriteLine("kısa kenar giriniz: "+ kisa);
-        Console.WriteLine("uzun kenar giriniz: "+uzun);
-         
-
-        int alan = Convert.ToInt32(kisa * uzun);
-
-        Console.WriteLine("alan: {0}", alan);
-    }
-
-    private static int HesaplaPmsiz()
-    {
-        //geriye deger donduren methodlar veya functionlar  da mutlaka return tanımı olmalıdır.
-        Console.WriteLine("kısa kenar giriniz: ");
-        int kk = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("uzun kenar giriniz: ");
-        int uk = Convert.ToInt32(Console.ReadLine());
-
-        int alan = kk * uk;
-
-        return alan;
-
-        #endregion
-    }
-
-    private static int HesaplaPrmli(int kisa, int uzun)
-    {
-        Console.WriteLine("kısa kenar giriniz: " + kisa);
-        Console.WriteLine("uzun kenar giriniz: " + uzun);
-
-        int alan = Convert.ToInt32(kisa * uzun);
-
-        Console.WriteLine("alan: {0}", alan);
-
-        return alan;
-    }
-
-
-    private static int Topla(int a, int b)
-    {
-        
-        return a + b;
-    }
-    private static int Cikarma(int a, int b)
-    {
-        
-        return a - b;
-    }
-    private static int Carpma(int a, int b)
-    {
-       
-        return a * b;
-    }
-    private static int Bolme(int a, int b)
-    {
-        
-        return a / b;
-    }
-    
-    private static void Hepsi(int a, int b)
-    {
-        int toplam = a + b;
-        int cikar = a - b;
-        int bolme = a / b;
-        int carpma = a * b;
-
-        Console.WriteLine("toplami: "+ toplam);
-        Console.WriteLine("cikar: " + cikar);
-        Console.WriteLine("bolme: " + bolme);
-        Console.WriteLine("carpma: " + carpma);
-    }
-
-    private static int DortIslem(int sayi1, int sayi2, string secenek)
-    {
-        int sonuc = 0;
-        if (secenek == "+")
-        {
-            sonuc = sayi1 + sayi2;
-        }else if(secenek == "-")
-        {
-            sonuc = sayi1 - sayi2;
-        }
-        else if(secenek == "*")
-        {
-            sonuc = sayi1 * sayi2;
-        }
-        else
-        {
-            try
-            {
-                sonuc = sayi1 / sayi2;
-            }
-            catch
-            {
-                Console.WriteLine("sayi2 degeri 0 olamaz!");
-
-                sonuc=sayi2/sayi1;
-            }
-        }
-            return sonuc;
-    }
-
-
-    private static int toplamaIslemi(int a,int b)
-    {
-        return a + b;
-    }
-    private static int toplamaIslemi(int a, int b, int c)
-    {
-        return a + b+c;
-    }
-    private static int toplamaIslemi(int a, int b,int c, int d)
-    {
-        return a + b+c+d;
-    }
-
+  
 
 
 }

@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\bin\Debug\net6.0\Workout03.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\bin\Debug\net6.0\Workout03.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\bin\Debug\net6.0\Workout03.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\bin\Debug\net6.0\Workout03.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\bin\Debug\net6.0\Workout03.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\refint\Workout03.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\Workout03.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Workout03\obj\Debug\net6.0\ref\Workout03.dll

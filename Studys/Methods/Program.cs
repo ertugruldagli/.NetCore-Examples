@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 internal class Program
 {
@@ -58,7 +59,22 @@ internal class Program
 
         //Console.WriteLine("alan: {0}", HesaplaPrmli(kk,uk));
 
-        HesaplaPrmli(10,30);
+        //HesaplaPrmli(10,30);
+
+        #endregion
+
+        #region workout
+        //uygun method yapısı kullanarak dört işlem gerçekleştiriniz. Birden fazla method tanımlayabilirsiniz.
+
+        Console.WriteLine("s1 giriniz: ");
+        int s1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("s2 giriniz: ");
+        int s2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("sonuc: "+ Topla(s1,s2));
+
+        Hepsi(s1,s2);
 
         #endregion
 
@@ -119,4 +135,42 @@ internal class Program
 
         return alan;
     }
+
+
+    private static int Topla(int a, int b)
+    {
+        
+        return a + b;
+    }
+    private static int Cikarma(int a, int b)
+    {
+        
+        return a - b;
+    }
+    private static int Carpma(int a, int b)
+    {
+       
+        return a * b;
+    }
+    private static int Bolme(int a, int b)
+    {
+        
+        return a / b;
+    }
+    
+
+
+    private static void Hepsi(int a, int b)
+    {
+        int toplam = a + b;
+        int cikar = a - b;
+        int bolme = a / b;
+        int carpma = a * b;
+
+        Console.WriteLine("toplami: "+ toplam);
+        Console.WriteLine("cikar: " + cikar);
+        Console.WriteLine("bolme: " + bolme);
+        Console.WriteLine("carpma: " + carpma);
+    }
+    
 }

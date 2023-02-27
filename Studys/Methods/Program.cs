@@ -245,9 +245,12 @@ internal class Program
 
         #region workout02 - menu
 
-        //ekrana seçenekli bir menü gelecek. seçeneklerim 1- hesap makinesi, 2-tek/çift kontrol.  buna göre methoları hazırlayınız
+        //ekrana seçenekli bir menü gelecek. seçeneklerim 1- hesap makinesi, 2-tek/çift kontrol.  buna göre methoları hazırlayınız.. menüyü ekrana getirme hesap mak. tekcift kontrol
 
         #endregion
+
+
+
 
 
         Console.ReadKey();  

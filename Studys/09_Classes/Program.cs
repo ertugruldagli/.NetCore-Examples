@@ -4,12 +4,16 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+
+
+        #region personel örneği 1
+
         //Personel kayıt sistemi: clsPersonel; persosnelID, ad,soyadı, tc, maas
         //Personel kaydı oluşturmak için setPerosnelData isimli method oluşturulacak. 
         //Personel bilgilerini göstermek için getPersonelData isimli bir method oluşturulacak.
         //Sınıf tanımlaması bititkten sonra işlemler orada tanımlanacak. 
 
-        #region personel örneği 1
+
         ////Personel Bilgileri 1
 
         //Console.WriteLine("Unitum Cerebris Commuitas Personel Listesi");
@@ -62,7 +66,7 @@ internal class Program
         //Bir class oluşturulacak; clsOgrenci: ogrNO,ogrAD,ogrSoyad, ders ve dersntu
         //2 tane method olacak 1 tanesi ogrencinin verilerini tutacak, diğeri ise ogrencinin aldığı nota göre 50 kontrol degeri ile geçti kaldı çıktısı verilsin.
 
-        clsOgrenci o1=new clsOgrenci();
+        clsOgrenci o1 =new clsOgrenci();
         o1.setOgrenci(1748,"ertu", "dagli","mat",85);
         o1.getOgrenci();
 
@@ -125,7 +129,6 @@ internal class Program
             Soyad= oSoyad;
             Ders= oDers;
             Not = oNot;
-
          
         }
 
@@ -133,6 +136,7 @@ internal class Program
         {
 
             Console.WriteLine($"\n\nogrenci No: {OgrenciNo}\nAdı ve soyadı: {Ad} {Soyad}\nDers: {Ders}\nNotu: {Not}");
+
             if (Not >= 50)
             {
 

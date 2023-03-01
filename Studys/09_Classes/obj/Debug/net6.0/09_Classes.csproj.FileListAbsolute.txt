@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\bin\Debug\net6.0\09_Classes.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\bin\Debug\net6.0\09_Classes.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\bin\Debug\net6.0\09_Classes.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\bin\Debug\net6.0\09_Classes.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\bin\Debug\net6.0\09_Classes.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\refint\09_Classes.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\09_Classes.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\09_Classes\obj\Debug\net6.0\ref\09_Classes.dll

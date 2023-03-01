@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _09_Classes;
+using System;
 using System.Security.Cryptography;
 
 internal class Program
@@ -96,21 +97,64 @@ internal class Program
         // maas 15500 üzeindeyse uzman personel olarak çıkış veren şekilde olacak izin günü 30 olacak
         //not: personelin maas bilgisinin belirlenmesi bilgisayara bırakılacak... random.. aralık 1000-20000 aralığı olsun.
         
-        
+        //nesneler oluştu
+        clsPersonel2 ozcan=new clsPersonel2();
+        clsPersonel2 ertugrul = new clsPersonel2();
+        clsPersonel2 helin = new clsPersonel2();
+        clsPersonel2 berna = new clsPersonel2();
+        clsPersonel2 nergis = new clsPersonel2();
+        clsPersonel2 nur = new clsPersonel2();
+        clsPersonel2 ferit = new clsPersonel2();
+        clsPersonel2 nesibe = new clsPersonel2();
+        clsPersonel2 ozdenur = new clsPersonel2();
+        clsPersonel2 aleyna = new clsPersonel2();
+        clsPersonel2 ilker = new clsPersonel2();
+        clsPersonel2 busra = new clsPersonel2();
+        clsPersonel2 burak = new clsPersonel2();
+        clsPersonel2 mehmet = new clsPersonel2();
+        clsPersonel2 umit = new clsPersonel2();
+
+
+        //bilgi doldurulması
+        int maasilk = 1000;
+        int maasson = 20000;
+
+        ozcan.setPersonelBilgileri("Özcan", "KARA", new Random().Next(maasilk, maasson));
+        ertugrul.setPersonelBilgileri("Ertuğrul", "DAĞLI", new Random().Next(maasilk, maasson));
+        helin.setPersonelBilgileri("Helin", "AYDIN", new Random().Next(maasilk, maasson));
+        berna.setPersonelBilgileri("Berna", "ELKOVAN", new Random().Next(maasilk, maasson));
+        nergis.setPersonelBilgileri("Nergis", "KETENCİ", new Random().Next(maasilk, maasson));
+        nur.setPersonelBilgileri("Saadet Nur", "KARAKAŞ", new Random().Next(maasilk, maasson));
+        ferit.setPersonelBilgileri("Muhammet Ferit", "ŞİMŞEK", new Random().Next(maasilk, maasson));
+        nesibe.setPersonelBilgileri("Nesibe", "KOSANOĞLU", new Random().Next(maasilk, maasson));
+        ozdenur.setPersonelBilgileri("Özdenur", "KOYUNCU", new Random().Next(maasilk, maasson));
+        aleyna.setPersonelBilgileri("Aleyna", "ÖZ", new Random().Next(maasilk, maasson));
+        ilker.setPersonelBilgileri("İlker", "KAPLAN", new Random().Next(maasilk, maasson));
+        busra.setPersonelBilgileri("Büşra", "KÖSE", new Random().Next(maasilk, maasson));
+        burak.setPersonelBilgileri("Burak", "ACAR", new Random().Next(maasilk, maasson));
+        mehmet.setPersonelBilgileri("Mehmet Doğan", "ERBAY", new Random().Next(maasilk, maasson));
+        umit.setPersonelBilgileri("Ümit", "KARAÇİVİ", new Random().Next(maasilk, maasson));
 
 
 
-        clsPersonel2 per2=new clsPersonel2();
-        per2.PersonelAd = "ERtugrul";
-        per2.PersonelSoyad = "dagli";
-        per2.Unvan = "Kıdemli Uzman";
-
-        Random rnd = new Random();
-        per2.Maas = rnd.Next(1000, 20000);
 
 
-        per2.getPersonel();
-        per2.PersonelMaas(per2.Maas);
+
+
+
+
+        ////bu sınıf içinde oluşturulmuş sınıf
+        //clsPersonel2a per2=new clsPersonel2a();
+        //per2.PersonelAd = "ERtugrul";
+        //per2.PersonelSoyad = "dagli";
+        //per2.Unvan = "Kıdemli Uzman";
+
+        //Random rnd = new Random();
+        //per2.Maas = rnd.Next(1000, 20000);
+
+
+        //per2.getPersonel();
+        //per2.PersonelMaas(per2.Maas);
 
 
         #endregion
@@ -187,7 +231,7 @@ internal class Program
     }
     #endregion
 
-    class clsPersonel2
+    class clsPersonel2a
     {
         public string PersonelAd;
         public string PersonelSoyad;

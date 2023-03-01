@@ -17,6 +17,7 @@ internal class Program
 
 
         //nesne oluşturma
+        //manuel/method yolu olarak doldurma
         clsPersonel1 per1= new clsPersonel1();
 
         per1.setPersonelData(99999,"ertu","caner","155464531","HR",5600);
@@ -62,7 +63,7 @@ internal class Program
     }
 
 
-
+    #region class and method
     class clsPersonel1
     {
         //Sınıfın özelliklerini (properteis) tanımlama 
@@ -95,4 +96,5 @@ internal class Program
 
 
     }
+    #endregion
 }

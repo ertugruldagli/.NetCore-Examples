@@ -16,6 +16,7 @@
             case "K":
                 day=dayforwoman-pdayCount;
                 break;
+
             default:
                 break;
         }

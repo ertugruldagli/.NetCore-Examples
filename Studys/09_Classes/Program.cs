@@ -42,6 +42,17 @@ internal class Program
         per2.getPersonelData();
 
 
+        clsPersonel1 per3 = new clsPersonel1(); //başka bir nesne oluşturuluyor.
+        per3.PersonelID = 3;
+        per3.Ad = "AHmet";
+        per3.Soyad = "İlhan";
+        per3.TCKNo = "23135468751";
+        per3.Bolum = "Engineer";
+        per3.Maas = 2500;
+
+        per3.getPersonelData();
+
+
         Console.ReadKey();
 
     }

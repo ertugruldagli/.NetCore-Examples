@@ -55,15 +55,12 @@ namespace _09_Classes
 
                     }
                 }
-                else
-                {
-                    Console.WriteLine("Personel oluşturulamadı!");
-                }
+               
 
             }
             else
             {
-                Console.WriteLine("İsim Bilgisi hatalı girilmiştir.");
+                
             }
 
 

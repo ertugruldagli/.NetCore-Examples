@@ -118,7 +118,7 @@ internal class Program
         //bilgi doldurulması
         int maasilk = 1000;
         int maasson = 20000;
-
+        Console.WriteLine("---------------Personeller-----------------");
         ozcan.setPersonelBilgileri("Özcan", "KARA", new Random().Next(maasilk, maasson));
         ertugrul.setPersonelBilgileri("Ertuğrul", "DAĞLI", new Random().Next(maasilk, maasson));
         helin.setPersonelBilgileri("Helin", "AYDIN", new Random().Next(maasilk, maasson));
@@ -136,6 +136,21 @@ internal class Program
         umit.setPersonelBilgileri("Ümit", "KARAÇİVİ", new Random().Next(maasilk, maasson));
 
 
+        Console.WriteLine(ozcan.getPersonelBilgileri());
+        Console.WriteLine(ertugrul.getPersonelBilgileri());
+        Console.WriteLine(helin.getPersonelBilgileri());
+        Console.WriteLine(berna.getPersonelBilgileri());
+        Console.WriteLine(nergis.getPersonelBilgileri());
+        Console.WriteLine(nur.getPersonelBilgileri());
+        Console.WriteLine(ferit.getPersonelBilgileri());
+        Console.WriteLine(nesibe.getPersonelBilgileri());
+        Console.WriteLine(ozdenur.getPersonelBilgileri());
+        Console.WriteLine(aleyna.getPersonelBilgileri());
+        Console.WriteLine(ilker.getPersonelBilgileri());
+        Console.WriteLine(busra.getPersonelBilgileri());
+        Console.WriteLine(burak.getPersonelBilgileri());
+        Console.WriteLine(mehmet.getPersonelBilgileri());
+        Console.WriteLine(umit.getPersonelBilgileri());
 
 
 

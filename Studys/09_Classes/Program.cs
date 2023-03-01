@@ -154,10 +154,6 @@ internal class Program
 
 
 
-
-
-
-
         ////bu sınıf içinde oluşturulmuş sınıf
         //clsPersonel2a per2=new clsPersonel2a();
         //per2.PersonelAd = "ERtugrul";

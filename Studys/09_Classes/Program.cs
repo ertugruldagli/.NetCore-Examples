@@ -95,8 +95,11 @@ internal class Program
         //maas 14001-15500 arasındaysa kıdemli+ personel //izin günü 24 olacak olaca
         // maas 15500 üzeindeyse uzman personel olarak çıkış veren şekilde olacak izin günü 30 olacak
         //not: personelin maas bilgisinin belirlenmesi bilgisayara bırakılacak... random.. aralık 1000-20000 aralığı olsun.
-        //
         
+        
+
+
+
         clsPersonel2 per2=new clsPersonel2();
         per2.PersonelAd = "ERtugrul";
         per2.PersonelSoyad = "dagli";

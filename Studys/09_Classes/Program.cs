@@ -67,8 +67,16 @@ internal class Program
         //2 tane method olacak 1 tanesi ogrencinin verilerini tutacak, diğeri ise ogrencinin aldığı nota göre 50 kontrol degeri ile geçti kaldı çıktısı verilsin.
 
         clsOgrenci o1 =new clsOgrenci();
-        o1.setOgrenci(1748,"ertu", "dagli","mat",85);
+       
+        o1.OgrenciNo = 0;
+        o1.Ad = "ertugrul";
+        o1.Soyad = "dagli";
+        o1.Ders = "mat";
+        o1.Not = 56;
+
         o1.getOgrenci();
+        o1.NotKontrol(o1.Not);
+        
 
 
         #endregion
@@ -121,22 +129,17 @@ internal class Program
         public string Ders;  // işlem yapılmayacağı(*+-/) için bellekten kazanç sağlamak adına string veri tipinde değer döndürür.
         public int Not;
 
-        public void setOgrenci(int oNO, string oAd, string oSoyad, string oDers, int oNot )
-        {
-            //bu method obje/class bilgilerini set etmek için kullanılacaktır. 
-          OgrenciNo= oNO;
-            Ad = oAd;
-            Soyad= oSoyad;
-            Ders= oDers;
-            Not = oNot;
-         
-        }
+       
 
         public void getOgrenci()
         {
 
             Console.WriteLine($"\n\nogrenci No: {OgrenciNo}\nAdı ve soyadı: {Ad} {Soyad}\nDers: {Ders}\nNotu: {Not}");
+        }
 
+        public void NotKontrol(int Not)
+        {
+        
             if (Not >= 50)
             {
 
@@ -146,10 +149,11 @@ internal class Program
             {
                 Console.WriteLine("kaldı");
             }
-
         }
+           
 
-    }
-
+     }
 
 }
+
+

@@ -21,39 +21,40 @@ internal class Program
 
         per1.setPersonelData(99999,"ertu","caner","155464531","HR",5600);
         per1.getPersonelData();
+
         per1.setPersonelData(33333,"ahmet","sahin","45445498","ıt",8562);
         per1.getPersonelData();
 
-        per1.PersonelID = 1;
-        per1.Ad = "Ertu";
-        per1.Soyad = "Dagli";
-        per1.TCKNo = "11951441286";
-        per1.Bolum = "IT";
-        per1.Maas = 1;
+        //per1.PersonelID = 1;
+        //per1.Ad = "Ertu";
+        //per1.Soyad = "Dagli";
+        //per1.TCKNo = "11951441286";
+        //per1.Bolum = "IT";
+        //per1.Maas = 1;
 
-        per1.getPersonelData();
-
-
-        clsPersonel1 per2 = new clsPersonel1(); //başka bir nesne oluşturuluyor.
-        per2.PersonelID = 2;
-        per2.Ad = "Uras";
-        per2.Soyad = "Goceri";
-        per2.TCKNo = "45657654351";
-        per2.Bolum = "Post";
-        per2.Maas = 1000;
-
-        per2.getPersonelData();
+        //per1.getPersonelData();
 
 
-        clsPersonel1 per3 = new clsPersonel1(); //başka bir nesne oluşturuluyor.
-        per3.PersonelID = 3;
-        per3.Ad = "AHmet";
-        per3.Soyad = "İlhan";
-        per3.TCKNo = "23135468751";
-        per3.Bolum = "Engineer";
-        per3.Maas = 2500;
+        //clsPersonel1 per2 = new clsPersonel1(); //başka bir nesne oluşturuluyor.
+        //per2.PersonelID = 2;
+        //per2.Ad = "Uras";
+        //per2.Soyad = "Goceri";
+        //per2.TCKNo = "45657654351";
+        //per2.Bolum = "Post";
+        //per2.Maas = 1000;
 
-        per3.getPersonelData();
+        //per2.getPersonelData();
+
+
+        //clsPersonel1 per3 = new clsPersonel1(); //başka bir nesne oluşturuluyor.
+        //per3.PersonelID = 3;
+        //per3.Ad = "AHmet";
+        //per3.Soyad = "İlhan";
+        //per3.TCKNo = "23135468751";
+        //per3.Bolum = "Engineer";
+        //per3.Maas = 2500;
+
+        //per3.getPersonelData();
 
 
         Console.ReadKey();

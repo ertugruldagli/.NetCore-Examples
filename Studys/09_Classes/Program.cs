@@ -19,7 +19,10 @@ internal class Program
         //nesne oluşturma
         clsPersonel1 per1= new clsPersonel1();
 
-        // per1.setPersonelData(1,"ertu","hjhksjd","fsdsfsdf","sdfsdf",5600);
+        per1.setPersonelData(99999,"ertu","caner","155464531","HR",5600);
+        per1.getPersonelData();
+        per1.setPersonelData(33333,"ahmet","sahin","45445498","ıt",8562);
+        per1.getPersonelData();
 
         per1.PersonelID = 1;
         per1.Ad = "Ertu";

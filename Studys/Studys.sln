@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workout03", "Workout03\Work
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkOut-EmeklilikHesaplama", "WorkOut-EmeklilikHesaplama\WorkOut-EmeklilikHesaplama.csproj", "{4B6A1DE9-6A04-459C-99C6-C051A3182DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Classes", "09_Classes\09_Classes.csproj", "{A7300799-292B-48FB-9B66-E16E27187C6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Classes", "09_Classes\09_Classes.csproj", "{A7300799-292B-48FB-9B66-E16E27187C6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_AccessModifiers", "10_AccessModifiers\10_AccessModifiers.csproj", "{892D4E80-B740-4AD4-B1EE-77631BC9D27B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A7300799-292B-48FB-9B66-E16E27187C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7300799-292B-48FB-9B66-E16E27187C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7300799-292B-48FB-9B66-E16E27187C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892D4E80-B740-4AD4-B1EE-77631BC9D27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892D4E80-B740-4AD4-B1EE-77631BC9D27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892D4E80-B740-4AD4-B1EE-77631BC9D27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892D4E80-B740-4AD4-B1EE-77631BC9D27B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\bin\Debug\net6.0\10_AccessModifiers.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\bin\Debug\net6.0\10_AccessModifiers.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\bin\Debug\net6.0\10_AccessModifiers.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\bin\Debug\net6.0\10_AccessModifiers.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\bin\Debug\net6.0\10_AccessModifiers.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\refint\10_AccessModifiers.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\10_AccessModifiers.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\10_AccessModifiers\obj\Debug\net6.0\ref\10_AccessModifiers.dll

@@ -23,19 +23,5 @@ namespace _10_AccessModifiers
             return this.TutorialName;
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

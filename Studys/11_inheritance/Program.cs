@@ -5,9 +5,15 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        clsSubTutorials tutorials= new clsSubTutorials();
+        clsSubTutorials altsinif= new clsSubTutorials();
 
-        tutorials.renameTutorial(".net Tutorislas from linkedin..");
+        altsinif.renameTutorial(".net Tutorislas from linkedin.."); //çağırdığımız bu method alt sınıfta
+
+        Console.WriteLine(altsinif.getTutorialName());
+
+
+
+
 
         Console.ReadKey();
 

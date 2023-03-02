@@ -8,7 +8,7 @@ namespace _11_inheritance
 {
     internal class clsSubTutorials : clsTutorials
     {
-        public void renameTutorial(string pNewName)
+        public void DersAdiBelirle(string pNewName)
         {
             TutorialName= pNewName;
         }

@@ -1,6 +1,6 @@
 ﻿using _10_AccessModifiers;
 
-internal class Program
+internal class Program : clsMovies //Kalıtım (ınheritence)
 {
     private static void Main(string[] args)
     {
@@ -19,10 +19,37 @@ internal class Program
 
         clsStudent student = new clsStudent();
         student.getName();
-        
-        
+
+
 
         #endregion
+
+        #region protected 
+
+      clsMovies movies = new clsMovies();
+
+        Program program= new Program();
+
+      Console.WriteLine($"Movie Name: {program.movieName}");
+
+
+        #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         Console.ReadKey();
     }

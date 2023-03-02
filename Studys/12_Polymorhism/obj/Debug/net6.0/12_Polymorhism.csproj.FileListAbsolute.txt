@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\bin\Debug\net6.0\12_Polymorhism.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\bin\Debug\net6.0\12_Polymorhism.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\bin\Debug\net6.0\12_Polymorhism.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\bin\Debug\net6.0\12_Polymorhism.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\bin\Debug\net6.0\12_Polymorhism.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\refint\12_Polymorhism.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\12_Polymorhism.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\12_Polymorhism\obj\Debug\net6.0\ref\12_Polymorhism.dll

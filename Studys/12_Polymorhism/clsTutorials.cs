@@ -33,7 +33,7 @@ namespace _12_Polymorhism
 
         public  string getTutorialName()
         {
-            return this.TutorialName;
+            return this.TutorialName + " " + this.TutorialDescription + " " + this.TutorialID;
         }
 
     }

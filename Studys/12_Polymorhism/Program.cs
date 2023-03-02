@@ -1,5 +1,4 @@
-﻿using _;
-using _12_Polymorhism;
+﻿using _12_Polymorhism;
 
 internal class Program
 {

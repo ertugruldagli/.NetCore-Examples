@@ -28,7 +28,7 @@ internal class Program : clsMovies //Kalıtım (ınheritence)
 
       clsMovies movies = new clsMovies();
 
-        Program program= new Program();
+      Program program= new Program();
 
       Console.WriteLine($"Movie Name: {program.movieName}");
 

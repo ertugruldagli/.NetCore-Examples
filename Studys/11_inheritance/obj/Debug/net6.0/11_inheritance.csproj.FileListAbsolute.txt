@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\bin\Debug\net6.0\11_inheritance.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\bin\Debug\net6.0\11_inheritance.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\bin\Debug\net6.0\11_inheritance.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\bin\Debug\net6.0\11_inheritance.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\bin\Debug\net6.0\11_inheritance.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\refint\11_inheritance.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\11_inheritance.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\11_inheritance\obj\Debug\net6.0\ref\11_inheritance.dll

@@ -12,6 +12,10 @@ internal class Program
         Console.WriteLine(tutorials.getTutorialName());
 
         tutorials.setTutorial("java"); //2. formunu kullnıyoruz tek parametreli olan
+        Console.WriteLine(tutorials.getTutorialName());
+
+        tutorials.setTutorial(2,"sql","select"); //3. formunu kullnıyoruz 3 parametreli olan
+        Console.WriteLine(tutorials.getTutorialName());
 
         Console.WriteLine();
     }

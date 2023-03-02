@@ -11,6 +11,7 @@ namespace _12_Polymorhism
 
        protected int TutorialID;
        protected string TutorialName;
+        protected string TutorialDescription;
 
         public void setTutorial(int pID, string pTutorialName)
         {
@@ -22,6 +23,13 @@ namespace _12_Polymorhism
             
             this.TutorialName = pTutorialName;
         }
+        public void setTutorial(int pID, string pTutorialName, string pDesc)
+        {
+            this.TutorialID = pID;
+            this.TutorialName = pTutorialName;
+            this.TutorialDescription = pDesc;
+        }
+
 
         public  string getTutorialName()
         {

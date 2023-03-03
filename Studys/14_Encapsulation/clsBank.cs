@@ -37,25 +37,52 @@ namespace _14_Encapsulation
 
         #region Getter setter
 
-        private double balance; // burada dışarıya kapalı bir dğeişken tanımı var
+        //private double balance; // burada dışarıya kapalı bir dğeişken tanımı var
 
-        // set - get methodlarının tanımlanması
+        //// set - get methodlarının tanımlanması
 
-        //public getter method: balance değişkeninde tutulan değeri almak için 
+        ////public getter method: balance değişkeninde tutulan değeri almak için 
 
-        public double GetBalanceCaps()
+        //public double GetBalanceCaps()
+        //{
+        //    //burada farklı işlemler var...
+        //    return this.balance;
+        //}
+
+        ////public setter method: bu metot balance değişkeninize tutalan değeri set/değiştirmek/güncellemek
+        //public void SetBalanceCaps(double balance)
+        //{
+        //   this.balance = balance;// sen benim kendi değişkenimi güncelleyeceksin
+        //}
+
+
+
+
+        #endregion
+
+
+        #region Eğer sınıfı tasarlarken Kapsülleme prensibine uyulmazsa ne olur?
+
+
+        public int Amount;
+
+        public int GetAmount()
         {
-            //burada farklı işlemler var...
-            return this.balance;
+            return Amount;
         }
 
-        //public setter method: bu metot balance değişkeninize tutalan değeri set/değiştirmek/güncellemek
-        public void SetBalanceCaps(double balance)
+        public void SetAmount (int Amount)
         {
-           this.balance = balance;// sen benim kendi değişkenimi güncelleyeceksin
+            if(Amount>0) {
+                this.Amount = Amount;
+            }
+            else
+            {
+                throw new Exception("lütfen pozitif bir sayi giriniz!");
+            }
+
+          
         }
-
-
 
 
         #endregion

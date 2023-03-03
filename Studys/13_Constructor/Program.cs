@@ -6,9 +6,48 @@ internal class Program
     {
 
 
-        clsTest test= new clsTest();
+        #region standart yapı
 
-        Console.WriteLine($"i degeri {test.i} - s degeri {test.s}- b degeri{test.b}");
+
+        //clsTest test = new clsTest();
+
+        //Console.WriteLine($"i degeri: {test.i} - s degeri: {test.s} - b degeri: {test.b}");
+
+
+        #endregion
+
+        //Constructer Tipleri
+
+        //Default or Parametersless Constructor --standart/parametresiz
+        //Parameterized Constructor --parametreli
+        //Copy Cosntructor --copy contructor
+        //Static Consturctor --static
+        //Private Constructor --private
+
+
+        #region Default/Parametresiz
+
+        //bu kurucular, bir programcı tarafından açıkça tanımlanabiliyor veya sınıf  altında açık...
+
+        clsEmployee emp1 = new clsEmployee();
+
+        emp1.DisplayEmployee();
+
+
+        #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         Console.ReadKey();

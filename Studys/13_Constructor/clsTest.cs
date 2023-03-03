@@ -19,6 +19,7 @@ namespace _13_Constructor
         //değişik durumlarda initial işlemler yapmak için kullanılır.
 
 
+
         public clsTest()
         {
             i = 0;

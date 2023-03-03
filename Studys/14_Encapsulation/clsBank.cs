@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -86,5 +87,44 @@ namespace _14_Encapsulation
 
 
         #endregion
+
+
+
+
+        #region Properteis / Değişkenlere de uygulanabilir
+
+
+        private int _Amount1;
+
+        public int Amount1
+        {
+            get
+            {
+                return _Amount1;
+            }
+            set
+            {
+                if (value<0)
+                {
+                    throw new Exception("Lütfen bir pozitif değer giriniz: ");
+                }
+                else
+                {
+                    _Amount1 = value;
+                }
+            }
+        }
+
+
+        public int _Amount { get; set; }
+
+
+
+
+        #endregion
+
+
+
+
     }
 }

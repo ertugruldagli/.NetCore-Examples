@@ -17,6 +17,13 @@ namespace _13_Constructor
             Console.WriteLine($"Parametreli ctor/yapıcı çağırıldı... Parametre degeri: {i}");
         }
 
+
+        public  clsCopy(clsCopy obj) {
+
+            x = obj.x;
+        }
+
+
         public void Display()
         {
             Console.WriteLine($"X değişkenin değeri: {x}");

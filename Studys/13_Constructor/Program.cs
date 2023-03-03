@@ -44,7 +44,7 @@ internal class Program
         //clsEmployee emp1 = new clsEmployee();   //kullanıcı tanımlı ctor
         //clsEmployee emp2 = new clsEmployee();
 
-       
+
         //emp1.DisplayEmployee();
         //emp2.DisplayEmployee();
 
@@ -65,12 +65,12 @@ internal class Program
         // Bu, parametreli yapıcı kullanarak, sınıfta oluşturulan farklı örneklerde farklı bir değer kümesi depolayabileceğimiz
         // anlamına gelir. Yani her nesneyi farklı değerlerle başlatabilme imkanı vermesidir.
 
-        clsParametized prm1=new clsParametized(10);
-        prm1.Display();
+        //clsParametized prm1=new clsParametized(10);
+        //prm1.Display();
 
 
-        clsParametized prm2 =new clsParametized(200);
-        prm2.Display();
+        //clsParametized prm2 =new clsParametized(200);
+        //prm2.Display();
 
 
 
@@ -80,7 +80,13 @@ internal class Program
         #region Copy ctor
 
         // aynı değerlere sahip 
+        clsCopy obj1 = new clsCopy(1056);
+        obj1.Display();
 
+
+        clsCopy obj2 = new clsCopy(obj1);
+        obj2.Display();
+        
 
         #endregion
 

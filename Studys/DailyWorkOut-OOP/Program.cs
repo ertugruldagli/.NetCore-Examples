@@ -1,4 +1,6 @@
-﻿NewMethod();
+﻿using DailyWorkOut_OOP;
+
+NewMethod();
 
 static void NewMethod()
 {
@@ -15,6 +17,10 @@ static void NewMethod()
 
     //human sınıfından birden fazla nesne üretebilirsiniz..
 
+
+    clsHuman human1= new clsHuman();
+    
+    
 
     Console.ReadKey();
 }

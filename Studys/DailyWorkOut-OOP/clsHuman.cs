@@ -8,5 +8,13 @@ namespace DailyWorkOut_OOP
 {
     internal class clsHuman
     {
+        public string ad;
+        public string soyad;
+        public string brithDay;
+        public string title;
+
+
+
+
     }
 }

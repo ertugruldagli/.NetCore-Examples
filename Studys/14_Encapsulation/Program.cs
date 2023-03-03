@@ -8,15 +8,15 @@ internal class Program
     {
         #region Normal Durum
 
-        clsBank bank = new clsBank();
+        //clsBank bank = new clsBank();
 
-        bank.AcountNumber = 123465798;
-        bank.Name = "Santander Bank";
-        bank.Balance = 500;
+        //bank.AcountNumber = 123465798;
+        //bank.Name = "Santander Bank";
+        //bank.Balance = 500;
 
-        bank.GetBalance();
-        bank.WithdrawAccount();
-        bank.depoasit();
+        //bank.GetBalance();
+        //bank.WithdrawAccount();
+        //bank.depoasit();
 
         #endregion
 
@@ -84,6 +84,28 @@ internal class Program
         #region Properteis / Değişkenlere de uygulanabilir
 
 
+        //try - catch gelecek
+
+
+        try
+        {
+            clsBank bank5 = new clsBank();
+
+            bank5._Amount2 = 100;
+
+            Console.WriteLine($"Değer : {bank5._Amount2}"); // direk değişkenin property tanımını yazabiliyorum.Set yapacapını kendi anlıyor
+
+            bank5._Amount2 = -5000;
+
+            Console.WriteLine($"Değer : {bank5._Amount2}"); // direk değişkenin property tanımını yazabiliyorum. Get yapacapını kendi anlıyor
+
+
+        }
+        catch 
+        {
+
+            Console.WriteLine("Lütfen Pozitif bir sayı girin dedik YA!");
+        }
 
 
 

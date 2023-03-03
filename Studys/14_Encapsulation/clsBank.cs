@@ -116,7 +116,7 @@ namespace _14_Encapsulation
         }
 
 
-        public int _Amount { get; set; }
+        public int _Amount2 { get; set; }  //kontrol sağlanmadığı durumlarda bu şekil de kullanıalbilir.
 
 
 

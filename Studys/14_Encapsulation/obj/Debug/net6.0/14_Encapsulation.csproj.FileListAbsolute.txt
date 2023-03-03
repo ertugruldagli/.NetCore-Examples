@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\bin\Debug\net6.0\14_Encapsulation.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\bin\Debug\net6.0\14_Encapsulation.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\bin\Debug\net6.0\14_Encapsulation.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\bin\Debug\net6.0\14_Encapsulation.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\bin\Debug\net6.0\14_Encapsulation.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\refint\14_Encapsulation.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\14_Encapsulation.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\14_Encapsulation\obj\Debug\net6.0\ref\14_Encapsulation.dll

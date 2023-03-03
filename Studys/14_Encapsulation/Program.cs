@@ -22,6 +22,13 @@ internal class Program
 
         #region Getter setter
 
+
+        clsBank bankGS=new clsBank();
+        bankGS.SetBalanceCaps(500);
+
+        Console.WriteLine($"Balance miktarı: {bankGS.GetBalanceCaps()}");
+
+
         #endregion
 
         Console.ReadKey();

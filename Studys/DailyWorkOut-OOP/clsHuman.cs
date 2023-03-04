@@ -14,6 +14,22 @@ namespace DailyWorkOut_OOP
         public string title;
 
 
+        public clsHuman() {
+
+            Console.WriteLine("İsim Giriniz: ");
+            ad = Console.ReadLine();
+
+            Console.WriteLine("İsim Giriniz: ");
+            soyad = Console.ReadLine();
+
+            Console.WriteLine("İsim Giriniz: ");
+            brithDay = Console.ReadLine();
+
+            Console.WriteLine("İsim Giriniz: ");
+            title = Console.ReadLine();
+
+
+        }
 
 
     }

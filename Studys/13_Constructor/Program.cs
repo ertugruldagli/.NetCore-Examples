@@ -80,24 +80,26 @@ internal class Program
         #region Copy ctor
 
         // aynı değerlere sahip 
-        clsCopy obj1 = new clsCopy(1056);
-        obj1.Display();
+        //clsCopy obj1 = new clsCopy(1056);
+        //obj1.Display();
 
 
-        clsCopy obj2 = new clsCopy(obj1);
-        obj2.Display();
+        //clsCopy obj2 = new clsCopy(obj1);
+        //obj2.Display();
+
+
+      
+
+            #endregion
+
+
+
+
+
+
         
 
-        #endregion
 
-
-
-
-
-
-
-
-
-        Console.ReadKey();
-    }
+            Console.ReadKey();
+        }
 }

@@ -20,7 +20,7 @@ static void NewMethod()
 
     clsHuman human1= new clsHuman();
     
-    
+     
 
     Console.ReadKey();
 }

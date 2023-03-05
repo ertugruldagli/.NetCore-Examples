@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\bin\Debug\net6.0\DailyWorkOut-OOP.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\bin\Debug\net6.0\DailyWorkOut-OOP.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\bin\Debug\net6.0\DailyWorkOut-OOP.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\bin\Debug\net6.0\DailyWorkOut-OOP.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\bin\Debug\net6.0\DailyWorkOut-OOP.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\refint\DailyWorkOut-OOP.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\DailyWorkOut-OOP.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\DailyWorkOut-OOP\obj\Debug\net6.0\ref\DailyWorkOut-OOP.dll

@@ -8,5 +8,6 @@ namespace DailyWorkOut_OOP
 {
     internal class clsFruit
     {
+        public string meyveAdi = "Elma";
     }
 }

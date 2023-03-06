@@ -28,7 +28,6 @@ namespace _15AbstractClass
                 Console.WriteLine($"< Employee Not Found >\n\n");
             }
         }
-
         //çalışan kişilerin bilgilerini set edeceğimiz metot 
 
         public void setInfo(string pName, string pSurname, double pSalary)

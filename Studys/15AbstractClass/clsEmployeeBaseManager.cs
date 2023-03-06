@@ -73,8 +73,30 @@ namespace _15AbstractClass
             }
         }
 
+        //maaş bilgilerinden erişim sağlayacak getter / setter methodları
 
-       
+        public double getSalary()
+        {
+            return salary;
+        }
+
+        public void setSalary(double pSalary)
+        {
+            this.salary = pSalary;
+        }
+
+        public void setTitle(string pTitle)
+        {
+            this.title = pTitle;
+        }
+
+        //Her nesne için özel zam seçenekleri olabileceği için abstract methodlar tanımlanyor. Polymorhism kullanılıyor.
+
+        public abstract void doRaise(); //düz zam
+        public abstract void doRaise(double prmRaiseRate); //zam + prim
+
+
+
     }
 
 }

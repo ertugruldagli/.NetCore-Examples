@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\bin\Debug\net6.0\15AbstractClass.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\bin\Debug\net6.0\15AbstractClass.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\bin\Debug\net6.0\15AbstractClass.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\bin\Debug\net6.0\15AbstractClass.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\bin\Debug\net6.0\15AbstractClass.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\refint\15AbstractClass.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\15AbstractClass.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\15AbstractClass\obj\Debug\net6.0\ref\15AbstractClass.dll

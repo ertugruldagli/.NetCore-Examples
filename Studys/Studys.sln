@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Interfaces", "16_Interfa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class01", "Class01\Class01.csproj", "{FB0A6B86-CDAF-45E2-9217-DB7DBAC421A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethod", "VirtualMethod\VirtualMethod.csproj", "{7F183931-1425-44A3-B1C9-30FC240103D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{FB0A6B86-CDAF-45E2-9217-DB7DBAC421A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB0A6B86-CDAF-45E2-9217-DB7DBAC421A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB0A6B86-CDAF-45E2-9217-DB7DBAC421A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F183931-1425-44A3-B1C9-30FC240103D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F183931-1425-44A3-B1C9-30FC240103D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F183931-1425-44A3-B1C9-30FC240103D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F183931-1425-44A3-B1C9-30FC240103D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

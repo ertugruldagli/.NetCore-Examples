@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\bin\Debug\net6.0\VirtualMethod.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\bin\Debug\net6.0\VirtualMethod.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\bin\Debug\net6.0\VirtualMethod.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\bin\Debug\net6.0\VirtualMethod.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\bin\Debug\net6.0\VirtualMethod.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\refint\VirtualMethod.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\VirtualMethod.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\VirtualMethod\obj\Debug\net6.0\ref\VirtualMethod.dll

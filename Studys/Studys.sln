@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class01", "Class01\Class01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethod", "VirtualMethod\VirtualMethod.csproj", "{7F183931-1425-44A3-B1C9-30FC240103D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soyutlama", "Soyutlama\Soyutlama.csproj", "{B5354906-8A58-4953-8EA7-46869903F5CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{7F183931-1425-44A3-B1C9-30FC240103D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F183931-1425-44A3-B1C9-30FC240103D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F183931-1425-44A3-B1C9-30FC240103D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5354906-8A58-4953-8EA7-46869903F5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5354906-8A58-4953-8EA7-46869903F5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5354906-8A58-4953-8EA7-46869903F5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5354906-8A58-4953-8EA7-46869903F5CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

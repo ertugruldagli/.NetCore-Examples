@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\bin\Debug\net6.0\Soyutlama.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\bin\Debug\net6.0\Soyutlama.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\bin\Debug\net6.0\Soyutlama.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\bin\Debug\net6.0\Soyutlama.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\bin\Debug\net6.0\Soyutlama.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\refint\Soyutlama.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\Soyutlama.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\Soyutlama\obj\Debug\net6.0\ref\Soyutlama.dll

@@ -1,0 +1,5 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\16_Interfaces\obj\Debug\net6.0\16_Interfaces.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\16_Interfaces\obj\Debug\net6.0\16_Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\16_Interfaces\obj\Debug\net6.0\16_Interfaces.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\16_Interfaces\obj\Debug\net6.0\16_Interfaces.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\16_Interfaces\obj\Debug\net6.0\16_Interfaces.csproj.CoreCompileInputs.cache

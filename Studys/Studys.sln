@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualMethod", "VirtualMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soyutlama", "Soyutlama\Soyutlama.csproj", "{B5354906-8A58-4953-8EA7-46869903F5CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{807EEC1E-FEFD-4742-905C-49C6E1EEE5E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{807EEC1E-FEFD-4742-905C-49C6E1EEE5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiyFrameworkdemo", "EntitiyFrameworkdemo\EntitiyFrameworkdemo.csproj", "{975DD1EB-1AC8-48BF-9748-E5C23824D91A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo", "AdoNetDemo\AdoNetDemo.csproj", "{1788DCC3-F8BC-4832-94F3-12C43C580C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{807EEC1E-FEFD-4742-905C-49C6E1EEE5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{807EEC1E-FEFD-4742-905C-49C6E1EEE5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{807EEC1E-FEFD-4742-905C-49C6E1EEE5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975DD1EB-1AC8-48BF-9748-E5C23824D91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975DD1EB-1AC8-48BF-9748-E5C23824D91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975DD1EB-1AC8-48BF-9748-E5C23824D91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975DD1EB-1AC8-48BF-9748-E5C23824D91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1788DCC3-F8BC-4832-94F3-12C43C580C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1788DCC3-F8BC-4832-94F3-12C43C580C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1788DCC3-F8BC-4832-94F3-12C43C580C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1788DCC3-F8BC-4832-94F3-12C43C580C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

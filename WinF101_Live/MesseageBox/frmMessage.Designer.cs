@@ -73,6 +73,7 @@
             this.Name = "frmMessage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Message Kutusu";
+            this.Load += new System.EventHandler(this.frmMessage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

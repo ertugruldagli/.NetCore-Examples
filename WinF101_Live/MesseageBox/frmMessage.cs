@@ -37,6 +37,9 @@ namespace MesseageBox
             Application.Exit();
         }
 
+        private void frmMessage_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

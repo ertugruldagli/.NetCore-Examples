@@ -70,5 +70,17 @@ namespace SimpleCalculate
         {
             
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmSimple_Load(object sender, EventArgs e)
+        {
+            //Form ekrana ilk gelirken yapılacak işlemler
+
+            cboxControl.SelectedIndex = 0;
+        }
     }
 }

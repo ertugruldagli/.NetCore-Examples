@@ -36,11 +36,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.lblSonuc = new System.Windows.Forms.Label();
+            this.cboxControl = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnToplam
             // 
-            this.btnToplam.Location = new System.Drawing.Point(101, 129);
+            this.btnToplam.Location = new System.Drawing.Point(105, 211);
             this.btnToplam.Name = "btnToplam";
             this.btnToplam.Size = new System.Drawing.Size(109, 25);
             this.btnToplam.TabIndex = 0;
@@ -91,7 +93,7 @@
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Location = new System.Drawing.Point(276, 204);
+            this.btnExit.Location = new System.Drawing.Point(359, 311);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(63, 25);
             this.btnExit.TabIndex = 5;
@@ -102,19 +104,44 @@
             // lblSonuc
             // 
             this.lblSonuc.AutoSize = true;
-            this.lblSonuc.Location = new System.Drawing.Point(124, 174);
+            this.lblSonuc.Location = new System.Drawing.Point(220, 217);
             this.lblSonuc.Name = "lblSonuc";
             this.lblSonuc.Size = new System.Drawing.Size(38, 13);
             this.lblSonuc.TabIndex = 6;
             this.lblSonuc.Text = "Sonuc";
             this.lblSonuc.Visible = false;
             // 
+            // cboxControl
+            // 
+            this.cboxControl.FormattingEnabled = true;
+            this.cboxControl.Items.AddRange(new object[] {
+            "+ ",
+            "- ",
+            "* ",
+            "/"});
+            this.cboxControl.Location = new System.Drawing.Point(127, 121);
+            this.cboxControl.Name = "cboxControl";
+            this.cboxControl.Size = new System.Drawing.Size(60, 21);
+            this.cboxControl.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(42, 124);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(72, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "İşlem seçiniz: ";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // frmSimple
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(351, 241);
+            this.ClientSize = new System.Drawing.Size(434, 348);
             this.ControlBox = false;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.cboxControl);
             this.Controls.Add(this.lblSonuc);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label3);
@@ -125,6 +152,7 @@
             this.Controls.Add(this.btnToplam);
             this.Name = "frmSimple";
             this.Text = "SimpleCalculate";
+            this.Load += new System.EventHandler(this.frmSimple_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,6 +168,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label lblSonuc;
+        private System.Windows.Forms.ComboBox cboxControl;
+        private System.Windows.Forms.Label label4;
     }
 }
 

@@ -4,3 +4,6 @@
 - Sonucu ilk aşamada Message box kullanılacak 
 - Exit butonu olacak
 - Form ismi anlamlı olacak
+
+
+--Sonucu bu sefer MessageBox yerine bir label comp. içinde olacak şekilde veriniz.

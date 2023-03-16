@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.lblSonuc = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnToplam
@@ -90,7 +91,7 @@
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Location = new System.Drawing.Point(275, 198);
+            this.btnExit.Location = new System.Drawing.Point(276, 204);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(63, 25);
             this.btnExit.TabIndex = 5;
@@ -98,12 +99,23 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // lblSonuc
+            // 
+            this.lblSonuc.AutoSize = true;
+            this.lblSonuc.Location = new System.Drawing.Point(124, 174);
+            this.lblSonuc.Name = "lblSonuc";
+            this.lblSonuc.Size = new System.Drawing.Size(38, 13);
+            this.lblSonuc.TabIndex = 6;
+            this.lblSonuc.Text = "Sonuc";
+            this.lblSonuc.Visible = false;
+            // 
             // frmSimple
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 235);
+            this.ClientSize = new System.Drawing.Size(351, 241);
             this.ControlBox = false;
+            this.Controls.Add(this.lblSonuc);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -127,6 +139,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label lblSonuc;
     }
 }
 

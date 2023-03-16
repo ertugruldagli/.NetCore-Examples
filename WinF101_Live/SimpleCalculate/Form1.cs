@@ -20,16 +20,37 @@ namespace SimpleCalculate
         private void btnToplam_Click(object sender, EventArgs e)
         {
             int sayi1, sayi2, toplam = 0;
-               
 
-            sayi1 = int.Parse(tboxSayi1.Text);
-            sayi2= int.Parse(tboxSayi2.Text);
+            if (tboxSayi1.Text=="")
+            {
+                sayi1 = 0;
+                MessageBox.Show("Değer girmediğiniz için varesayılan 0 olarak atandı.");
+            }
+            else
+            {
+
+                sayi1 = int.Parse(tboxSayi1.Text);
+            }
+            if (tboxSayi2.Text == "")
+            {
+                sayi2 = 0;
+                MessageBox.Show("Değer girmediğiniz için varesayılan 0 olarak atandı.");
+            }
+            else
+            {
+                sayi2 = int.Parse(tboxSayi2.Text);
+            }
+
+          
 
             toplam = sayi1+sayi2;
 
             //MessageBox.Show(Convert.ToString(toplam));
 
-            MessageBox.Show("İşlemin Sonucu: " + toplam.ToString());
+            //MessageBox.Show("İşlemin Sonucu: " + toplam.ToString());
+
+            lblSonuc.Text = "İşlemin Sonucu: "+toplam.ToString();
+            lblSonuc.Visible = true;
 
             tboxSayi1.Clear();
             tboxSayi2.Clear();
@@ -44,7 +65,11 @@ namespace SimpleCalculate
 
         private void tboxSayi1_Enter(object sender, EventArgs e)
         {
-            MessageBox.Show("şu an bu componenteyim");
+         
+        }
+        private void tboxSayi2_Enter(object sender, EventArgs e)
+        {
+            
         }
     }
 }

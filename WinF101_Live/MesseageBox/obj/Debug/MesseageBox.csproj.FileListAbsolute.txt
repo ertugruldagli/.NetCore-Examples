@@ -1,0 +1,11 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\bin\Debug\MesseageBox.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\bin\Debug\MesseageBox.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\bin\Debug\MesseageBox.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MesseageBox\obj\Debug\MesseageBox.frmMessage.resources

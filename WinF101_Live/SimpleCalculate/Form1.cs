@@ -19,36 +19,50 @@ namespace SimpleCalculate
 
         private void btnToplam_Click(object sender, EventArgs e)
         {
-            int sayi1, sayi2, toplam = 0;
 
-            if (tboxSayi1.Text=="")
+            double sayi1, sayi2, sonuc=0;
+            string secenek;
+
+  
+
+            if (tboxSayi1.Text != "" && tboxSayi2.Text != "")
             {
-                sayi1 = 0;
-                MessageBox.Show("Değer girmediğiniz için varsayılan 0 olarak atandı.");
+                sayi1 = Convert.ToDouble(tboxSayi1.Text);
+                sayi2 = Convert.ToDouble(tboxSayi2.Text);
+
+                secenek = cboxControl.Text;
+
+                switch (secenek)
+                {
+                    case "+":
+                        sonuc = sayi1 + sayi2;
+                        break;
+                    case "-":
+                        sonuc = sayi1 - sayi2;
+                        break;
+                    case "*":
+                        sonuc = sayi1 * sayi2;
+                        break;
+                    case "/":
+                        sonuc = sayi1 / sayi2;
+                        break;
+                  
+                }
             }
             else
             {
-
-                sayi1 = int.Parse(tboxSayi1.Text);
-            }
-            if (tboxSayi2.Text == "")
-            {
-                sayi2 = 0;
-                MessageBox.Show("Değer girmediğiniz için varsayılan 0 olarak atandı.");
-            }
-            else
-            {
-                sayi2 = int.Parse(tboxSayi2.Text);
+                MessageBox.Show("Lütfen Değerleri boş bırakmayınız!");
             }
 
+     
          
-            toplam = sayi1+sayi2;
+            //toplam = sayi1+sayi2;
 
             //MessageBox.Show(Convert.ToString(toplam));
 
             //MessageBox.Show("İşlemin Sonucu: " + toplam.ToString());
 
-            lblSonuc.Text = "İşlemin Sonucu: "+toplam.ToString();
+            lblSonuc.Text = "İşlemin Sonucu: "+sonuc.ToString();
             lblSonuc.Visible = true;
 
             tboxSayi1.Clear();

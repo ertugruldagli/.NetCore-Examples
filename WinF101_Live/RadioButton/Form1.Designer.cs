@@ -32,10 +32,10 @@
             this.rbtnArtır = new System.Windows.Forms.RadioButton();
             this.lblSonuc = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nudMiktar = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.btnIslem = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMiktar)).BeginInit();
             this.SuspendLayout();
             // 
             // rbtnAzalt
@@ -46,7 +46,6 @@
             this.rbtnAzalt.Name = "rbtnAzalt";
             this.rbtnAzalt.Size = new System.Drawing.Size(93, 35);
             this.rbtnAzalt.TabIndex = 0;
-            this.rbtnAzalt.TabStop = true;
             this.rbtnAzalt.Text = "Azalt";
             this.rbtnAzalt.UseVisualStyleBackColor = true;
             // 
@@ -58,7 +57,6 @@
             this.rbtnArtır.Name = "rbtnArtır";
             this.rbtnArtır.Size = new System.Drawing.Size(82, 35);
             this.rbtnArtır.TabIndex = 1;
-            this.rbtnArtır.TabStop = true;
             this.rbtnArtır.Text = "Artır";
             this.rbtnArtır.UseVisualStyleBackColor = true;
             // 
@@ -66,28 +64,33 @@
             // 
             this.lblSonuc.AutoSize = true;
             this.lblSonuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSonuc.Location = new System.Drawing.Point(77, 120);
+            this.lblSonuc.Location = new System.Drawing.Point(63, 156);
             this.lblSonuc.Name = "lblSonuc";
-            this.lblSonuc.Size = new System.Drawing.Size(64, 25);
+            this.lblSonuc.Size = new System.Drawing.Size(23, 25);
             this.lblSonuc.TabIndex = 2;
-            this.lblSonuc.Text = "label1";
+            this.lblSonuc.Text = "0";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 129);
+            this.label1.Location = new System.Drawing.Point(19, 165);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Sonuc";
             // 
-            // numericUpDown1
+            // nudMiktar
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.numericUpDown1.Location = new System.Drawing.Point(207, 58);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(82, 38);
-            this.numericUpDown1.TabIndex = 4;
+            this.nudMiktar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.nudMiktar.Location = new System.Drawing.Point(207, 58);
+            this.nudMiktar.Maximum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.nudMiktar.Name = "nudMiktar";
+            this.nudMiktar.Size = new System.Drawing.Size(82, 38);
+            this.nudMiktar.TabIndex = 4;
             // 
             // label2
             // 
@@ -107,6 +110,7 @@
             this.btnIslem.TabIndex = 6;
             this.btnIslem.Text = "İslem";
             this.btnIslem.UseVisualStyleBackColor = true;
+            this.btnIslem.Click += new System.EventHandler(this.btnIslem_Click);
             // 
             // frmRadioButon
             // 
@@ -115,14 +119,15 @@
             this.ClientSize = new System.Drawing.Size(310, 199);
             this.Controls.Add(this.btnIslem);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.nudMiktar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSonuc);
             this.Controls.Add(this.rbtnArtır);
             this.Controls.Add(this.rbtnAzalt);
             this.Name = "frmRadioButon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMiktar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,7 +139,7 @@
         private System.Windows.Forms.RadioButton rbtnArtır;
         private System.Windows.Forms.Label lblSonuc;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nudMiktar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnIslem;
     }

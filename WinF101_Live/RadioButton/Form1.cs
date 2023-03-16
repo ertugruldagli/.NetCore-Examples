@@ -16,5 +16,23 @@ namespace RadioButton
         {
             InitializeComponent();
         }
+
+        private void btnIslem_Click(object sender, EventArgs e)
+        {
+            int sonuc;
+
+            sonuc = int.Parse(lblSonuc.Text);
+
+            if (rbtnArtır.Checked)
+            {
+                sonuc = (int)(sonuc + nudMiktar.Value);
+                lblSonuc.Text=sonuc.ToString();
+            }
+            else
+            {
+                sonuc = (int)(sonuc - nudMiktar.Value);
+                lblSonuc.Text = sonuc.ToString();
+            }
+        }
     }
 }

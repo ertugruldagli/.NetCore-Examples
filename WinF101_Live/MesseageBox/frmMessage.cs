@@ -28,6 +28,15 @@ namespace MesseageBox
 
             // MessageBox.Show("Merhaba Ertugrul");
             MessageBox.Show(message);  //Burada parametre gönderild!
+           // tboxMessage.Text = ""; // textbox kutusunu temizler
+            tboxMessage.Clear();
         }
+
+        private void btnCikis_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
     }
 }

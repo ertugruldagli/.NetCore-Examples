@@ -24,7 +24,7 @@ namespace SimpleCalculate
             if (tboxSayi1.Text=="")
             {
                 sayi1 = 0;
-                MessageBox.Show("Değer girmediğiniz için varesayılan 0 olarak atandı.");
+                MessageBox.Show("Değer girmediğiniz için varsayılan 0 olarak atandı.");
             }
             else
             {
@@ -34,15 +34,14 @@ namespace SimpleCalculate
             if (tboxSayi2.Text == "")
             {
                 sayi2 = 0;
-                MessageBox.Show("Değer girmediğiniz için varesayılan 0 olarak atandı.");
+                MessageBox.Show("Değer girmediğiniz için varsayılan 0 olarak atandı.");
             }
             else
             {
                 sayi2 = int.Parse(tboxSayi2.Text);
             }
 
-          
-
+         
             toplam = sayi1+sayi2;
 
             //MessageBox.Show(Convert.ToString(toplam));

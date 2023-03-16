@@ -5,5 +5,11 @@
 - Exit butonu olacak
 - Form ismi anlamlı olacak
 
-
 --Sonucu bu sefer MessageBox yerine bir label comp. içinde olacak şekilde veriniz.
+
+------------------------------------------------------------------------
+
+4 işlem yapılacak:
+	- Seçenekli olacak (+-*/) (combobox comp. kullanılacak...)
+	- Boşluk kontrolü sağlanacak
+	- komponentten seçilen seçneğe göre işlemler yapılacak.

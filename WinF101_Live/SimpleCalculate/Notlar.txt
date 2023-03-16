@@ -1,0 +1,6 @@
+﻿Burada 2 sayının toplamı göstereceğiz.. 
+- 2 tane textbox
+- 1 tane buton
+- Sonucu ilk aşamada Message box kullanılacak 
+- Exit butonu olacak
+- Form ismi anlamlı olacak

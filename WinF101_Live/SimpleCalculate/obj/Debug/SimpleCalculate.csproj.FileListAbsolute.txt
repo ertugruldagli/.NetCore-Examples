@@ -1,0 +1,11 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\bin\Debug\SimpleCalculate.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\bin\Debug\SimpleCalculate.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\bin\Debug\SimpleCalculate.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.frmSimple.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\SimpleCalculate\obj\Debug\SimpleCalculate.pdb

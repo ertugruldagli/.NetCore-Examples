@@ -21,12 +21,13 @@ namespace MesseageBox
         {
             string message;
 
-            message = "Hello World! What's up?";
-            tboxMessage.Text = message; // parametre gönderildi!
 
+            //message = "Hello World! What's up?";
+
+            message = tboxMessage.Text; // parametre gönderildi!
 
             // MessageBox.Show("Merhaba Ertugrul");
-            //MessageBox.Show(message);  //Burada parametre gönderild!
+            MessageBox.Show(message);  //Burada parametre gönderild!
         }
     }
 }

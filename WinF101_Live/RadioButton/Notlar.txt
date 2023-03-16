@@ -1,0 +1,1 @@
+﻿--Ekranda bulunan radio butonun değerine göre, istenilen miktarda değer arttırma / azaltma işlemi

@@ -44,7 +44,15 @@ namespace SimpleCalculate
                         sonuc = sayi1 * sayi2;
                         break;
                     case "/":
-                        sonuc = sayi1 / sayi2;
+                        
+                        if (sayi2!=0)
+                        {
+                            sonuc = sayi1 / sayi2;
+                        }
+                        else
+                        {
+                            MessageBox.Show("0'a bölme hatası!");
+                        }
                         break;
                   
                 }

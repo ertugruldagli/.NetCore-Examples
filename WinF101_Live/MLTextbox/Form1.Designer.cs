@@ -65,7 +65,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 355);
+            this.ClientSize = new System.Drawing.Size(263, 263);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnGetir);
             this.Controls.Add(this.tBoxML);

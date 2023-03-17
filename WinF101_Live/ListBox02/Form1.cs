@@ -30,20 +30,20 @@ namespace ListBox02
 
         private void frmListBox02_Load(object sender, EventArgs e)
         {
-            
-          
-            tBoxAdet.Text = "";
 
-            tBoxAlt.Clear();
-            tBoxUst.Clear();
-
-            liBoxSonuc.Items.Clear();
-
-            tBoxAdet.Focus(); 
+            EkraniTemizle();
+           
         }
 
         private void btnUret_Click(object sender, EventArgs e)
         {
+
+            // Her defasında buradaki durum için mesela ekranı tmaizlemek gerkebilir.
+            // bu yüzden ekrnaı ilk haline getiren bir geridönüşsüz bir metot oluşturunuz.
+
+            int toplam = 0;
+            liBoxSonuc.Items.Clear();
+
             if (tBoxAdet.Text !="")
             {
                 //işleme girsin 
@@ -52,11 +52,36 @@ namespace ListBox02
                     for (int i = 0; i <=  int.Parse(tBoxAdet.Text) ; i++)
                     {
                         int rSayi=rnd.Next(int.Parse(tBoxAlt.Text), int.Parse(tBoxUst.Text));
+                        toplam += i;
 
                         liBoxSonuc.Items.Add(rSayi.ToString());
                     }
+
+                    lblMessage.Visible = true;
+                    lblMessage.Text = ($"{int.Parse(tBoxAlt.Text)} ile {int.Parse(tBoxUst.Text)} arasında {int.Parse(tBoxAdet.Text)} adet sayi üretilmiştir... Toplamı : {toplam}");
+
+                    EkraniTemizle();
                 }
             }
+            else
+            {
+                lblMessage.Visible = true;
+                lblMessage.Text = "Adet Bilgisini giriniz!! ";
+            }
+
+        } 
+
+        public void EkraniTemizle() //ekranı sıfırlama methodu
+        {
+            tBoxAdet.Text = "";
+
+            tBoxAlt.Clear();
+            tBoxUst.Clear();
+
+            liBoxSonuc.Items.Clear();
+
+            tBoxAdet.Focus();
         }
-    }
+      
+}
 }

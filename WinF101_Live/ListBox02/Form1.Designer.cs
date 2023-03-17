@@ -37,6 +37,7 @@
             this.btnUret = new System.Windows.Forms.Button();
             this.liBoxSonuc = new System.Windows.Forms.ListBox();
             this.btnExit = new System.Windows.Forms.Button();
+            this.lblMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tBoxAdet
@@ -109,7 +110,7 @@
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Location = new System.Drawing.Point(303, 260);
+            this.btnExit.Location = new System.Drawing.Point(317, 309);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(50, 37);
             this.btnExit.TabIndex = 8;
@@ -117,12 +118,23 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // lblMessage
+            // 
+            this.lblMessage.AutoSize = true;
+            this.lblMessage.Location = new System.Drawing.Point(19, 243);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.TabIndex = 9;
+            this.lblMessage.Text = "label4";
+            this.lblMessage.Visible = false;
+            // 
             // frmListBox02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(365, 309);
+            this.ClientSize = new System.Drawing.Size(379, 358);
+            this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.liBoxSonuc);
             this.Controls.Add(this.btnUret);
@@ -152,6 +164,7 @@
         private System.Windows.Forms.Button btnUret;
         private System.Windows.Forms.ListBox liBoxSonuc;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label lblMessage;
     }
 }
 

@@ -1,0 +1,11 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\bin\Debug\MLTextbox.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\bin\Debug\MLTextbox.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\bin\Debug\MLTextbox.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.Form1.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MLTextbox\obj\Debug\MLTextbox.pdb

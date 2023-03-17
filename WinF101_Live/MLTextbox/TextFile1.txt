@@ -1,0 +1,3 @@
+﻿--MLTextbox
+1 ile 10 arasında rastgele ondaklıklı sayı üretip
+bunları bir textboxa ekle

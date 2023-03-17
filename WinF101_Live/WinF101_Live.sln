@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox01", "ListBox01\List
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox02", "ListBox02\ListBox02.csproj", "{C6294E37-96EA-4B30-8056-5E81742B5CC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLTextbox", "MLTextbox\MLTextbox.csproj", "{3B0893E0-3D20-4435-B593-FF93BB96E917}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C6294E37-96EA-4B30-8056-5E81742B5CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6294E37-96EA-4B30-8056-5E81742B5CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6294E37-96EA-4B30-8056-5E81742B5CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0893E0-3D20-4435-B593-FF93BB96E917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0893E0-3D20-4435-B593-FF93BB96E917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0893E0-3D20-4435-B593-FF93BB96E917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0893E0-3D20-4435-B593-FF93BB96E917}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,13 +21,17 @@ namespace ListBox01
         {
             liBox.Items.Clear();
 
+
             int adet = int.Parse(txtAdet.Text);
+
             for (int i = 1; i <= adet; i++)
             {
                 string sayiText = i.ToString();
                 liBox.Items.Add(sayiText + ". sayi ");
 
             }
+            liBox.SelectedIndex = 0;
+            txtAdet.Text = "";
             
 
         }
@@ -35,6 +39,7 @@ namespace ListBox01
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            txtAdet.Focus();
         }
     }
 }

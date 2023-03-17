@@ -1,0 +1,13 @@
+﻿ListBox
+
+Ekranda 2 tane txtbox olsun 
+her ikisine ayrı ayrı değerler girilsin 
+bu değerler arasında random sayı üretilsin 
+listboxu buna göre dolduralım...
+1.txtbox illaki küçük sayi
+2. txtbox illaki büyük sayi
+ters şekilde girişlere için verilmesi
+
+	1.box: 5
+	2.box: 50
+	5 ile 50 arasında sayı üretilecek

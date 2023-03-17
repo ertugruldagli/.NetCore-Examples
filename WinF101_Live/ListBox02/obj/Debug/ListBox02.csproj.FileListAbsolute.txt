@@ -1,0 +1,11 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\bin\Debug\ListBox02.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\bin\Debug\ListBox02.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\bin\Debug\ListBox02.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ListBox02\obj\Debug\ListBox02.frmListBox02.resources

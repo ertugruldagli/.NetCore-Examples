@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox01", "ComboBox01\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox01", "ListBox01\ListBox01.csproj", "{CCDEE8F7-7775-45AF-B084-673BEC611F56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox02", "ListBox02\ListBox02.csproj", "{C6294E37-96EA-4B30-8056-5E81742B5CC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CCDEE8F7-7775-45AF-B084-673BEC611F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCDEE8F7-7775-45AF-B084-673BEC611F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCDEE8F7-7775-45AF-B084-673BEC611F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6294E37-96EA-4B30-8056-5E81742B5CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6294E37-96EA-4B30-8056-5E81742B5CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6294E37-96EA-4B30-8056-5E81742B5CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6294E37-96EA-4B30-8056-5E81742B5CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

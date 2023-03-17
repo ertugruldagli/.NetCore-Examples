@@ -51,11 +51,12 @@ namespace ListBox02
                 {
                     for (int i = 0; i <=  int.Parse(tBoxAdet.Text) ; i++)
                     {
-                        int rSayi=rnd.Next(int.Parse(tBoxAlt.Text), int.Parse(tBoxUst.Text));
-                        
+
+                        int rSayi = rnd.Next(int.Parse(tBoxAlt.Text), int.Parse(tBoxUst.Text));
 
                         liBoxSonuc.Items.Add(rSayi.ToString());
-                       toplam += rSayi;
+
+                        toplam += rSayi;
                     }
 
                     lblMessage.Visible = true;

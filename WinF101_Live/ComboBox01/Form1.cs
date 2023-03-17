@@ -19,6 +19,7 @@ namespace ComboBox01
 
         private void btnSayilar_Click(object sender, EventArgs e)
         {
+            cBox01Listele.Items.Clear();  //combox içini temizler.. tekrarlama işlemi yapmaz!
 
             //for (int i = 1;i<=20;i++)
             //{
@@ -36,19 +37,22 @@ namespace ComboBox01
                 cBox01Listele.Items.Add(sayiText +". sayi ");
 
             }
-            cBox01Listele.Enabled = true;
+            //cBox01Listele.Enabled = true;
+            
+
 
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+        }      // exit formu kapatma
 
-        private void frmCbox01_Load(object sender, EventArgs e)
+        private void frmCbox01_Load(object sender, EventArgs e)        //
         {
             txtAdet.Select();
-            cBox01Listele.Enabled= false;
+            //cBox01Listele.Enabled= false;
+            
         }
     }
 }

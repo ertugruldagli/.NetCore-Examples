@@ -48,6 +48,7 @@
             // 
             // cBox01Listele
             // 
+            this.cBox01Listele.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cBox01Listele.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cBox01Listele.FormattingEnabled = true;
             this.cBox01Listele.Location = new System.Drawing.Point(12, 74);

@@ -52,12 +52,14 @@ namespace ListBox02
                     for (int i = 0; i <=  int.Parse(tBoxAdet.Text) ; i++)
                     {
                         int rSayi=rnd.Next(int.Parse(tBoxAlt.Text), int.Parse(tBoxUst.Text));
-                        toplam += i;
+                        
 
                         liBoxSonuc.Items.Add(rSayi.ToString());
+                       toplam += rSayi;
                     }
 
                     lblMessage.Visible = true;
+
                     lblMessage.Text = ($"{int.Parse(tBoxAlt.Text)} ile {int.Parse(tBoxUst.Text)} arasında {int.Parse(tBoxAdet.Text)} adet sayi üretilmiştir... Toplamı : {toplam}");
 
                     EkraniTemizle();

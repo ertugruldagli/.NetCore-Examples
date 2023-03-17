@@ -1,0 +1,9 @@
+﻿-butona basıldığında comboBox içeriği (elemanları) doldurulacak 
+(1'den 20'e kadar sayılar)
+İçerik: 
+	1.Sayi
+	2.Sayi
+	...
+	20.Sayi
+gibi gözükecektir.
+	

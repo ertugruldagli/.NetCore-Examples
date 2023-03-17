@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton", "RadioButton\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox01", "ComboBox01\ComboBox01.csproj", "{7A888781-FE6A-4E5C-80C2-888F2859EAF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox01", "ListBox01\ListBox01.csproj", "{CCDEE8F7-7775-45AF-B084-673BEC611F56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7A888781-FE6A-4E5C-80C2-888F2859EAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A888781-FE6A-4E5C-80C2-888F2859EAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A888781-FE6A-4E5C-80C2-888F2859EAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDEE8F7-7775-45AF-B084-673BEC611F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDEE8F7-7775-45AF-B084-673BEC611F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDEE8F7-7775-45AF-B084-673BEC611F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDEE8F7-7775-45AF-B084-673BEC611F56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

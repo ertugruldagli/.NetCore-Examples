@@ -34,7 +34,7 @@ namespace MLTextbox
 
         public void IslemYap()
         {
-            
+
                 tBoxML.Text += (SayiUret().ToString()) + "\n\n\n";
             
         }

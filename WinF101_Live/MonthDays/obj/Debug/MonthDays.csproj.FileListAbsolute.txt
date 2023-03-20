@@ -1,0 +1,11 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\bin\Debug\MonthDays.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\bin\Debug\MonthDays.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\bin\Debug\MonthDays.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.frmMonthDays.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\MonthDays\obj\Debug\MonthDays.pdb

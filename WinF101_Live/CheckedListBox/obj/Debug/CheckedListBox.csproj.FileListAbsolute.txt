@@ -1,0 +1,11 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\bin\Debug\CheckedListBox.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\bin\Debug\CheckedListBox.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\bin\Debug\CheckedListBox.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.frmCheckedListBox.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\CheckedListBox\obj\Debug\CheckedListBox.pdb

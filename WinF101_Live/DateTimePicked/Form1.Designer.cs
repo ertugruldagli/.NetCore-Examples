@@ -89,9 +89,9 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(245, 319);
+            this.btnExit.Location = new System.Drawing.Point(258, 319);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(77, 28);
+            this.btnExit.Size = new System.Drawing.Size(64, 28);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;

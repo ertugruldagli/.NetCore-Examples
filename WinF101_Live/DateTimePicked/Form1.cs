@@ -32,14 +32,14 @@ namespace DateTimePicked
             string Minute = Convert.ToString(Math.Round(sonuc.TotalMinutes, 2)) +  " Dakika ";
 
             liBoxResult.Items.Clear();
-            liBoxResult.Items.Add("--------------------------");
+           
             liBoxResult.Items.Add(year);
             liBoxResult.Items.Add(Month);
             liBoxResult.Items.Add(day);
             liBoxResult.Items.Add(hour);
             liBoxResult.Items.Add(Minute);
-            
-           
+            liBoxResult.Items.Add("--------------------------");
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)

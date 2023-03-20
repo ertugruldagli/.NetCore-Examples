@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLTextbox", "MLTextbox\MLTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckedListBox", "CheckedListBox\CheckedListBox.csproj", "{21D6DDE7-6271-447E-AE87-83C0C81CA1E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePicked", "DateTimePicked\DateTimePicked.csproj", "{23B51387-C262-41B4-AF0F-3769E5FBDA61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{21D6DDE7-6271-447E-AE87-83C0C81CA1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D6DDE7-6271-447E-AE87-83C0C81CA1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D6DDE7-6271-447E-AE87-83C0C81CA1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B51387-C262-41B4-AF0F-3769E5FBDA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B51387-C262-41B4-AF0F-3769E5FBDA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B51387-C262-41B4-AF0F-3769E5FBDA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B51387-C262-41B4-AF0F-3769E5FBDA61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

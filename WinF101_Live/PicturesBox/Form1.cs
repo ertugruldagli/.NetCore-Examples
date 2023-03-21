@@ -15,6 +15,7 @@ namespace PicturesBox
         int fg, fy, pbg, pby;
        
         public frmPictureBox()
+
         {
             InitializeComponent();
         }

@@ -60,11 +60,13 @@ namespace MonthDays
 
             int totalDaysCount = DateTime.DaysInMonth(yil,ay);
 
-            for (int i = 1; i < totalDaysCount; i++)
+            for (int i = 1; i <= totalDaysCount; i++)
             {
+                
                 liBoxAylar.Items.Add(tarih.Day + " " + cBoxAy.Text + " " + formatTR.DayNames[(int)tarih.DayOfWeek]);
 
-                tarih=tarih.AddDays(i);
+                tarih = tarih.AddDays(1); 
+
             }
         }
     }

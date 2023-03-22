@@ -106,21 +106,25 @@
             // 
             // btnKaydet
             // 
+            this.btnKaydet.BackColor = System.Drawing.Color.Lime;
             this.btnKaydet.Location = new System.Drawing.Point(106, 195);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(69, 24);
             this.btnKaydet.TabIndex = 8;
             this.btnKaydet.Text = "kaydet";
-            this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.UseVisualStyleBackColor = false;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // btnClose
             // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnClose.Location = new System.Drawing.Point(226, 195);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(69, 24);
             this.btnClose.TabIndex = 9;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmADO01_Detail
             // 
@@ -142,22 +146,22 @@
             this.Name = "frmADO01_Detail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detail";
+            this.Load += new System.EventHandler(this.frmADO01_Detail_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox tBoxCustomerID;
-        private System.Windows.Forms.TextBox tBoxComName;
-        private System.Windows.Forms.TextBox tBoxContactName;
-        private System.Windows.Forms.TextBox tBoxCountry;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnKaydet;
         private System.Windows.Forms.Button btnClose;
+        public System.Windows.Forms.TextBox tBoxCustomerID;
+        public System.Windows.Forms.TextBox tBoxComName;
+        public System.Windows.Forms.TextBox tBoxContactName;
+        public System.Windows.Forms.TextBox tBoxCountry;
     }
 }

@@ -1,0 +1,12 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\bin\Debug\ADO01.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\bin\Debug\ADO01.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\bin\Debug\ADO01.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.frmADO01.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.frmADO01_Detail.resources

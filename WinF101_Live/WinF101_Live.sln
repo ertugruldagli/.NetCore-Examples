@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControl", "TabControl\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicturesBox", "PicturesBox\PicturesBox.csproj", "{485A5FB3-48B8-49A4-947C-9D2FE8FB963E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO01", "ADO01\ADO01.csproj", "{4233A9F4-48C6-4F15-A07F-F67315B28B1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{485A5FB3-48B8-49A4-947C-9D2FE8FB963E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{485A5FB3-48B8-49A4-947C-9D2FE8FB963E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{485A5FB3-48B8-49A4-947C-9D2FE8FB963E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4233A9F4-48C6-4F15-A07F-F67315B28B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4233A9F4-48C6-4F15-A07F-F67315B28B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4233A9F4-48C6-4F15-A07F-F67315B28B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4233A9F4-48C6-4F15-A07F-F67315B28B1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

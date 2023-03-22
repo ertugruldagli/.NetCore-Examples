@@ -148,13 +148,36 @@ namespace ADO01
 
             DialogResult dialogResult = MessageBox.Show("Veriyi Gerçekten silmek istiyor musunuz?","Onay",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            if (dialogResult==DialogResult.Yes)
+            if (dialogResult == DialogResult.Yes)
             {
-                vs_SQL="DELETE FROM Customers WHERE CustomerID='"+ dgwCustomers.CurrentRow.Cells[0].Value.ToString() + "'"; // seçili satırdaki 0. kolonda bulunan değeri alarak silme işlemini yapar...
+                using (SqlConnection conn = new SqlConnection(constring))
+                {
+                    vs_SQL = "DELETE FROM Customers WHERE CustomerID='" + dgwCustomers.CurrentRow.Cells[0].Value.ToString() + "'"; // seçili satırdaki 0. kolonda bulunan değeri alarak silme işlemini yapar...
+
+                    using (SqlCommand query = new SqlCommand(vs_SQL, conn))
+                    {
+                        query.CommandType = CommandType.Text;
+
+                        try
+                        {
+                            conn.Open();
+
+                            query.ExecuteNonQuery();
+
+                            MessageBox.Show("Bilgileriniz silindi..");
+
+                            BindGrid();
+
+                        }
+                        catch (Exception messeage)
+                        {
+
+                            MessageBox.Show(messeage.ToString());
+                        }
+                    }
+                }
             }
 
-            ShowData("D");
-            BindGrid();
         }
     }
 }

@@ -15,6 +15,7 @@ namespace ADO01
     {
 
         const string constring = @"Data Source=ED-INTERN;Initial Catalog=Northwind;Integrated Security=True";
+        string vs_SQL;
 
         public frmADO01()
         {
@@ -115,6 +116,7 @@ namespace ADO01
                     break;
 
 
+
             }
 
             detail.ShowDialog();
@@ -125,18 +127,33 @@ namespace ADO01
         {
             //show data
             ShowData("I");
+            BindGrid();
 
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             ShowData("U");
+            BindGrid();
         }
 
         private void dgwCustomers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             ShowData("U");
+            BindGrid();
+        }
 
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+
+            DialogResult dialogResult = MessageBox.Show("Veriyi Gerçekten silmek istiyor musunuz?","Onay",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialogResult==DialogResult.Yes)
+            {
+                vs_SQL="DELETE FROM Customers WHERE CustomerID='"+ dgwCustomers.CurrentRow.Cells[0].Value.ToString() + "'"; // seçili satırdaki 0. kolonda bulunan değeri alarak silme işlemini yapar...
+            }
+
+            ShowData("D");
             BindGrid();
         }
     }

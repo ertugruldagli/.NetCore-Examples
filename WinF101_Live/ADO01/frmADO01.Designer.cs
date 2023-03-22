@@ -42,7 +42,7 @@
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnExit.ForeColor = System.Drawing.Color.Black;
-            this.btnExit.Location = new System.Drawing.Point(757, 482);
+            this.btnExit.Location = new System.Drawing.Point(711, 482);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(64, 29);
             this.btnExit.TabIndex = 0;
@@ -73,7 +73,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(677, 95);
+            this.btnAdd.Location = new System.Drawing.Point(657, 95);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(108, 29);
             this.btnAdd.TabIndex = 4;
@@ -83,7 +83,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(677, 130);
+            this.btnUpdate.Location = new System.Drawing.Point(657, 130);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(108, 29);
             this.btnUpdate.TabIndex = 5;
@@ -93,19 +93,20 @@
             // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(677, 165);
+            this.btnRemove.Location = new System.Drawing.Point(657, 165);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(108, 29);
             this.btnRemove.TabIndex = 6;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // frmADO01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumOrchid;
-            this.ClientSize = new System.Drawing.Size(824, 523);
+            this.ClientSize = new System.Drawing.Size(778, 523);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);

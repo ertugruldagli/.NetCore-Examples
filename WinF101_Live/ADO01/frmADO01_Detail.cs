@@ -36,11 +36,13 @@ namespace ADO01
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
+            //frmADO01.BackGrou renk ekleme
              string vs_SQLText = "";
 
             // bu form her iki işe de yaracağı için hangi modda olduğunu anlatmam lazım
 
             switch (Mode) {
+
                 case "U":
                     vs_SQLText = "Update Customers SET ";
                     //vs_SQLText += "CompanyName='" + tBoxComName.Text + "'";
@@ -49,6 +51,10 @@ namespace ADO01
                     vs_SQLText += "Country=@Country ";
                     vs_SQLText += "WHERE CustomerID=@CustomerID";
                     //sql text oluşturuldu...Parametreli
+                    break;
+
+                case "I":
+                    vs_SQLText = "INSERT INTO Customers (CustomerID, CompanyName, ContactName, Country) VALUES (@CustomerID,@CompanyName,@ContactName,@Country)";
                     break;
             
             }
@@ -68,7 +74,7 @@ namespace ADO01
                         conn.Open();
                         query.ExecuteNonQuery();
 
-                        MessageBox.Show("Bilgileriniz Güncellenmiştir...");
+                        MessageBox.Show("Bilgileriniz başarıyla Kaydedilmiştir....");
 
                         this.Close();
                     }

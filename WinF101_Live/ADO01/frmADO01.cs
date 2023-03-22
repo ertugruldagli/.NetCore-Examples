@@ -64,7 +64,7 @@ namespace ADO01
             //dg yi dolduran bölüm
             using (SqlConnection conn = new SqlConnection(constring))
             {
-                using (SqlCommand query=new SqlCommand("SELECT * FROM Customers",conn))// conn nesnesini kullanarak sql komutunu oluştur.
+                using (SqlCommand query=new SqlCommand("SELECT CustomerID, CompanyName, ContactName,Country FROM Customers",conn))// conn nesnesini kullanarak sql komutunu oluştur.
                 {
                    query.CommandType= CommandType.Text;
 

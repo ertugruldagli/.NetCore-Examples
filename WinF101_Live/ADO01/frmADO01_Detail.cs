@@ -36,17 +36,17 @@ namespace ADO01
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-             string vs_SQLText = null;
+             string vs_SQLText = "";
 
             // bu form her iki işe de yaracağı için hangi modda olduğunu anlatmam lazım
 
             switch (Mode) {
                 case "U":
-                    vs_SQLText = "Update Customers SET";
+                    vs_SQLText = "Update Customers SET ";
                     //vs_SQLText += "CompanyName='" + tBoxComName.Text + "'";
                     vs_SQLText += "CompanyName=@CompanyName,";
                     vs_SQLText += "ContactName=@ContactName,";
-                    vs_SQLText += "Country=@Country";
+                    vs_SQLText += "Country=@Country ";
                     vs_SQLText += "WHERE CustomerID=@CustomerID";
                     //sql text oluşturuldu...Parametreli
                     break;
@@ -73,10 +73,10 @@ namespace ADO01
 
                         this.Close();
                     }
-                    catch (Exception)
+                    catch (Exception message)
                     {
+                        MessageBox.Show(message.ToString());
 
-                       
                     }
 
 

@@ -136,6 +136,8 @@ namespace ADO01
         private void dgwCustomers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             ShowData("U");
+
+            BindGrid();
         }
     }
 }

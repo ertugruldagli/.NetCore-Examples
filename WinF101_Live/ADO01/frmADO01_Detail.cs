@@ -51,7 +51,6 @@ namespace ADO01
                     //sql text oluşturuldu...Parametreli
                     break;
             
-            
             }
             using (SqlConnection conn = new SqlConnection(constring))
             {

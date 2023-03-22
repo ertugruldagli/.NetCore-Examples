@@ -85,9 +85,13 @@ namespace PicturesBox
             fy = frmPictureBox.Height;
 
             pbg = pibocPic.Width;
-            pby = pibocPic.Height;   
-            
-            MessageBox.Show("Form Genişlik: " + fg + " Form Yükseklik: "+ fy);
+            pby = pibocPic.Height;
+
+            //MessageBox.Show("Form Genişlik: " + fg + " Form Yükseklik: "+ fy);
+
+
+            pibocPic.ImageLocation = lblFileName.Text;
+            lblFileName.Visible = false;
         }
     }
 }

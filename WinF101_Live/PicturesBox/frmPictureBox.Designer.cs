@@ -28,19 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPictureBox));
             this.pibocPic = new System.Windows.Forms.PictureBox();
+            this.lblFileName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pibocPic)).BeginInit();
             this.SuspendLayout();
             // 
             // pibocPic
             // 
-            this.pibocPic.Image = ((System.Drawing.Image)(resources.GetObject("pibocPic.Image")));
-            this.pibocPic.Location = new System.Drawing.Point(429, 60);
+            this.pibocPic.Location = new System.Drawing.Point(118, 26);
             this.pibocPic.Name = "pibocPic";
             this.pibocPic.Size = new System.Drawing.Size(314, 377);
             this.pibocPic.TabIndex = 0;
             this.pibocPic.TabStop = false;
+            // 
+            // lblFileName
+            // 
+            this.lblFileName.AutoSize = true;
+            this.lblFileName.Location = new System.Drawing.Point(12, 489);
+            this.lblFileName.Name = "lblFileName";
+            this.lblFileName.Size = new System.Drawing.Size(35, 13);
+            this.lblFileName.TabIndex = 2;
+            this.lblFileName.Text = "label1";
             // 
             // frmPictureBox
             // 
@@ -48,6 +56,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(844, 511);
+            this.Controls.Add(this.lblFileName);
             this.Controls.Add(this.pibocPic);
             this.Name = "frmPictureBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -56,12 +65,14 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmPictureBox_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pibocPic)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pibocPic;
+        private System.Windows.Forms.Label lblFileName;
     }
 }
 

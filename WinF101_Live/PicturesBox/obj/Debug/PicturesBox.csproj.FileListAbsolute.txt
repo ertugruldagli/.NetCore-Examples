@@ -9,3 +9,4 @@ C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\PicturesBox\obj\Debug\PicturesB
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\PicturesBox\obj\Debug\PicturesBox.csproj.CoreCompileInputs.cache
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\PicturesBox\obj\Debug\PicturesBox.exe
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\PicturesBox\obj\Debug\PicturesBox.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\PicturesBox\obj\Debug\PicturesBox.frmSec.resources

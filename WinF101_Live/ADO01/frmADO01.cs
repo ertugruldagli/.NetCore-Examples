@@ -24,7 +24,7 @@ namespace ADO01
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void frmADO01_Load(object sender, EventArgs e)

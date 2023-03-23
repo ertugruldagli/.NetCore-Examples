@@ -146,12 +146,19 @@ namespace ADO01
         {
             vs_SQLQuery = "";
 
-            if (tboxQProductName.Text!= "")
+            if (tboxQProductName.Text != "")
             {
-                vs_SQLQuery = " AND ProductName LIKE '%" + tboxQProductName.Text + "%' ";
+                vs_SQLQuery += " AND ProductName LIKE '%" + tboxQProductName.Text + "%' ";
             }
 
-            BindGrid(vs_SQLCommendAna+ vs_SQLQuery);
+
+            //Catogry combsundaki değişimi eğer varsa selectedIndex propertsi varsa
+
+            if (cboxCategory.SelectedIndex>0)
+            {
+                vs_SQLQuery += " AND Products.CategoryID =" + cboxCategory.SelectedIndex;
+            }
+            BindGrid(vs_SQLCommendAna + vs_SQLQuery);
         }
     }
 }

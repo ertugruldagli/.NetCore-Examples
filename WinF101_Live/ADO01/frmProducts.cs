@@ -18,6 +18,7 @@ namespace ADO01
 
         string vs_SQLCommend="";//sql komutlarını içerecek 
         string vs_SQLQuery = ""; //Query text tutacak
+        string vs_SQLCommendAna = "";
         string Mode = "";
 
         public frmProducts()
@@ -30,26 +31,19 @@ namespace ADO01
             this.Close();
         }
 
-        private void btnQuery_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BindGrid()
+        private void BindGrid(string prmSQLText)
         {
             //dg yi dolduran bölüm
             using (SqlConnection conn = new SqlConnection(constring))
             {
-                /*SELECT ProductId, ProductName, Categories.CategoryName, Suppliers.CompanyName, UnitsInStock,Discontinued
-                    FROM Products
-                    INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID
-                    INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID*/
+             
 
-                vs_SQLCommend= "SELECT ProductId, ProductName, Categories.CategoryName, Suppliers.CompanyName, UnitsInStock,Discontinued FROM Products ";
-                vs_SQLCommend += "INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID ";
-                vs_SQLCommend += "INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID ";
+                //vs_SQLCommend= "SELECT ProductId, ProductName, Categories.CategoryName, Suppliers.CompanyName, UnitsInStock,Discontinued FROM Products ";
+                //vs_SQLCommend += "INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID ";
+                //vs_SQLCommend += "INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID ";
+                //vs_SQLCommend += "WHERE ProductID > 0 ";
 
-                using (SqlCommand query = new SqlCommand(vs_SQLCommend, conn))// conn nesnesini kullanarak sql komutunu oluştur.
+                using (SqlCommand query = new SqlCommand(prmSQLText, conn))// conn nesnesini kullanarak sql komutunu oluştur.
                 {
                     query.CommandType = CommandType.Text;
 
@@ -94,7 +88,11 @@ namespace ADO01
         private void frmProducts_Load(object sender, EventArgs e)
         {
             PrepareGrid();
-            BindGrid();
+            vs_SQLCommendAna = "SELECT ProductId, ProductName, Categories.CategoryName, Suppliers.CompanyName, UnitsInStock,Discontinued FROM Products ";
+            vs_SQLCommendAna += "INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID ";
+            vs_SQLCommendAna += "INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID ";
+            vs_SQLCommendAna += "WHERE ProductID > 0 ";
+            BindGrid(vs_SQLCommendAna);
             GetCategory();
         }
 
@@ -140,6 +138,20 @@ namespace ADO01
                     }
                 }
             }
+        }
+
+
+
+        private void btnQuery_Click(object sender, EventArgs e)
+        {
+            vs_SQLQuery = "";
+
+            if (tboxQProductName.Text!= "")
+            {
+                vs_SQLQuery = " AND ProductName LIKE '%" + tboxQProductName.Text + "%' ";
+            }
+
+            BindGrid(vs_SQLCommendAna+ vs_SQLQuery);
         }
     }
 }

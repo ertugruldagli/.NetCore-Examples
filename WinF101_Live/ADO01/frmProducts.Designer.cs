@@ -33,7 +33,7 @@
             this.tabpDetail = new System.Windows.Forms.TabPage();
             this.tabpData = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgrwProducts = new System.Windows.Forms.DataGridView();
             this.tboxQCategory = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,7 +44,7 @@
             this.tabcProducts.SuspendLayout();
             this.tabpData.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgrwProducts)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
@@ -81,7 +81,7 @@
             // 
             // tabpData
             // 
-            this.tabpData.Controls.Add(this.dataGridView1);
+            this.tabpData.Controls.Add(this.dgrwProducts);
             this.tabpData.Controls.Add(this.groupBox1);
             this.tabpData.Location = new System.Drawing.Point(4, 24);
             this.tabpData.Name = "tabpData";
@@ -108,13 +108,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sorgu Seçenekleri";
             // 
-            // dataGridView1
+            // dgrwProducts
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 221);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(754, 187);
-            this.dataGridView1.TabIndex = 1;
+            this.dgrwProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgrwProducts.Location = new System.Drawing.Point(15, 221);
+            this.dgrwProducts.Name = "dgrwProducts";
+            this.dgrwProducts.Size = new System.Drawing.Size(754, 187);
+            this.dgrwProducts.TabIndex = 1;
             // 
             // tboxQCategory
             // 
@@ -187,14 +187,16 @@
             this.Controls.Add(this.tabcProducts);
             this.Controls.Add(this.btnClose);
             this.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmProducts";
             this.Text = "frmProducts";
+            this.Load += new System.EventHandler(this.frmProducts_Load);
             this.tabcProducts.ResumeLayout(false);
             this.tabpData.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgrwProducts)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -205,7 +207,7 @@
         private System.Windows.Forms.TabControl tabcProducts;
         private System.Windows.Forms.TabPage tabpDetail;
         private System.Windows.Forms.TabPage tabpData;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgrwProducts;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tboxQCategory;

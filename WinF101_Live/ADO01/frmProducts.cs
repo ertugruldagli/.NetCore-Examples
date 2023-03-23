@@ -125,10 +125,16 @@ namespace ADO01
                             //comboboxın ilk satırı -- hepsi yazzsın
                             //data tabloların olmayan bir satırı oluşturmak için kullanılan bir class var ilk olrak bunun gözükmesini sağlayacak.
 
-                          cboxCategory.DataSource = dset.Tables[0];
+                            DataRow newRow = dset.Tables[0].NewRow() ; // Yeni bir satır açıyoruz.
 
-                          cboxCategory.ValueMember= "CategoryID";//comboboxta gösterir
-                          cboxCategory.DisplayMember = "CategoryName";
+                            newRow["CategoryID"] = 0;
+                            newRow["CategoryName"] = "--- Hepsi ---";
+                            dset.Tables[0].Rows.InsertAt(newRow,0);// db tablosunda olmayan kayıdı  combo boxın 0.indeksine koyuyorum ki ilk o gözüksün...
+
+                              cboxCategory.DataSource = dset.Tables[0];
+
+                              cboxCategory.ValueMember= "CategoryID";//comboboxta gösterir
+                              cboxCategory.DisplayMember = "CategoryName";
 
                         }
                     }

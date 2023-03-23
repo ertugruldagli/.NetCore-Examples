@@ -10,3 +10,5 @@ C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.csproj.Co
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.exe
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.pdb
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.frmADO01_Detail.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.frmMain.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\ADO01\obj\Debug\ADO01.frmProducts.resources

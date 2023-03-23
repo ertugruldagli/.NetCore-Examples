@@ -95,11 +95,45 @@ namespace ADO01
         {
             PrepareGrid();
             BindGrid();
+            GetCategory();
         }
 
         private void GetCategory()
         {
             //SQL Tarafındaki  Category Tablosundan Sorgulamada Kullanabilmek için  sadece CategoryID ve CategoryName alanalrını almalıyım..
+            //dg yi dolduran bölüm
+            using (SqlConnection conn = new SqlConnection(constring))
+            {
+                /*SELECT ProductId, ProductName, Categories.CategoryName, Suppliers.CompanyName, UnitsInStock,Discontinued
+                    FROM Products
+                    INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID
+                    INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID*/
+
+                vs_SQLCommend = "SELECT CategoryID, CategoryName FROM Categories ";
+             
+
+                using (SqlCommand query = new SqlCommand(vs_SQLCommend, conn))// conn nesnesini kullanarak sql komutunu oluştur.
+                {
+                    query.CommandType = CommandType.Text;
+
+                    using (SqlDataAdapter sda = new SqlDataAdapter(query))
+                    {
+                        using (DataSet dset = new DataSet())
+                        {
+                            sda.Fill(dset);
+
+                            //comboboxın ilk satırı -- hepsi yazzsın
+                            //data tabloların olmayan bir satırı oluşturmak için kullanılan bir class var ilk olrak bunun gözükmesini sağlayacak.
+
+                          cboxCategory.DataSource = dset.Tables[0];
+
+                          cboxCategory.ValueMember= "CategoryID";//comboboxta gösterir
+                          cboxCategory.DisplayMember = "CategoryName";
+
+                        }
+                    }
+                }
+            }
         }
     }
 }

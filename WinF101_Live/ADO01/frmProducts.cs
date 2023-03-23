@@ -12,6 +12,11 @@ namespace ADO01
 {
     public partial class frmProducts : Form
     {
+
+        const string constring = @"Data Source=ED-INTERN;Initial Catalog=Northwind;Integrated Security=True";
+        string vs_SQLCommend="";//sql komutlarını içerecek 
+        string vs_SQLQuery = ""; //Query text tutacak
+
         public frmProducts()
         {
             InitializeComponent();
@@ -20,6 +25,11 @@ namespace ADO01
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnQuery_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

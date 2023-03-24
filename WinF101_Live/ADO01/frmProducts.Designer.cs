@@ -50,8 +50,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBoxSuppliers = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.tboxPrice = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.nudStokCty = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
@@ -109,6 +107,7 @@
             this.dgrwProducts.Name = "dgrwProducts";
             this.dgrwProducts.Size = new System.Drawing.Size(754, 187);
             this.dgrwProducts.TabIndex = 1;
+            this.dgrwProducts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgrwProducts_CellContentClick);
             // 
             // groupBox1
             // 
@@ -197,8 +196,6 @@
             this.tabpDetail.Controls.Add(this.label9);
             this.tabpDetail.Controls.Add(this.nudStokCty);
             this.tabpDetail.Controls.Add(this.label8);
-            this.tabpDetail.Controls.Add(this.label7);
-            this.tabpDetail.Controls.Add(this.tboxPrice);
             this.tabpDetail.Controls.Add(this.comboBoxSuppliers);
             this.tabpDetail.Controls.Add(this.label6);
             this.tabpDetail.Controls.Add(this.label5);
@@ -292,26 +289,10 @@
             this.comboBoxSuppliers.Size = new System.Drawing.Size(99, 23);
             this.comboBoxSuppliers.TabIndex = 5;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(28, 195);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 15);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Unit Price: ";
-            // 
-            // tboxPrice
-            // 
-            this.tboxPrice.Location = new System.Drawing.Point(169, 192);
-            this.tboxPrice.Name = "tboxPrice";
-            this.tboxPrice.Size = new System.Drawing.Size(151, 23);
-            this.tboxPrice.TabIndex = 6;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(28, 248);
+            this.label8.Location = new System.Drawing.Point(28, 191);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(105, 15);
             this.label8.TabIndex = 9;
@@ -319,7 +300,7 @@
             // 
             // nudStokCty
             // 
-            this.nudStokCty.Location = new System.Drawing.Point(169, 246);
+            this.nudStokCty.Location = new System.Drawing.Point(169, 189);
             this.nudStokCty.Name = "nudStokCty";
             this.nudStokCty.Size = new System.Drawing.Size(151, 23);
             this.nudStokCty.TabIndex = 10;
@@ -327,7 +308,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(28, 302);
+            this.label9.Location = new System.Drawing.Point(28, 245);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(105, 15);
             this.label9.TabIndex = 11;
@@ -336,7 +317,7 @@
             // cboxDiscontinued
             // 
             this.cboxDiscontinued.AutoSize = true;
-            this.cboxDiscontinued.Location = new System.Drawing.Point(169, 302);
+            this.cboxDiscontinued.Location = new System.Drawing.Point(169, 245);
             this.cboxDiscontinued.Name = "cboxDiscontinued";
             this.cboxDiscontinued.Size = new System.Drawing.Size(15, 14);
             this.cboxDiscontinued.TabIndex = 12;
@@ -346,7 +327,7 @@
             // 
             this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnAdd.Location = new System.Drawing.Point(201, 340);
+            this.btnAdd.Location = new System.Drawing.Point(201, 283);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(99, 24);
@@ -405,8 +386,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.NumericUpDown nudStokCty;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox tboxPrice;
         private System.Windows.Forms.ComboBox comboBoxSuppliers;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;

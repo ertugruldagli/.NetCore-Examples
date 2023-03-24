@@ -88,7 +88,7 @@ namespace ADO01
         private void frmProducts_Load(object sender, EventArgs e)
         {
             PrepareGrid();
-            vs_SQLCommendAna = "SELECT ProductId, ProductName, Categories.CategoryName, Suppliers.CompanyName, UnitsInStock,Discontinued FROM Products ";
+            vs_SQLCommendAna = "SELECT ProductId, ProductName, Products.CategoryID, Categories.CategoryName, Suppliers.CompanyName, UnitsInStock,Discontinued FROM Products ";
             vs_SQLCommendAna += "INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID ";
             vs_SQLCommendAna += "INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID ";
             vs_SQLCommendAna += "WHERE ProductID > 0 ";
@@ -134,6 +134,13 @@ namespace ADO01
                               cboxCategory.ValueMember= "CategoryID";//comboboxta gösterir
                               cboxCategory.DisplayMember = "CategoryName";
 
+                            //detail menusu içerisinde olan 
+                            comboBoxCategory.DataSource = dset.Tables[0];
+                            comboBoxCategory.ValueMember = "CategoryID";//comboboxta gösterir
+                            comboBoxCategory.DisplayMember = "CategoryName";
+
+
+
                         }
                     }
                 }
@@ -176,7 +183,9 @@ namespace ADO01
             {
                 case "U":
                     tboxCategory.Text = dgrwProducts.CurrentRow.Cells[1].Value.ToString();
-                    tboxPrice.Text = dgrwProducts.CurrentRow.Cells[4].Value.ToString();
+                    cboxCategory.SelectedValue = dgrwProducts.CurrentRow.Cells[2].Value;
+
+                   // comboBoxSuppliers.SelectedValue = dgrwProducts.CurrentRow.Cells[4];
                     break;
 
 
@@ -186,6 +195,11 @@ namespace ADO01
 
             tabcProducts.SelectedTab = tabcProducts.TabPages[1];
             
+        }
+
+        private void dgrwProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

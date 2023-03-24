@@ -14,6 +14,7 @@ namespace RuloSevkiyat
     public partial class inteCran : Form
     {
         // sql bağlantı değişkeni
+
         SqlConnection connection = new SqlConnection(@"Data Source=ED-INTERN;Initial Catalog=iCraneDB;Integrated Security=True");
 
         public inteCran()

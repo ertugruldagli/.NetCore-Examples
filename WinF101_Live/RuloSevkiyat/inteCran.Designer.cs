@@ -39,6 +39,7 @@
             this.btnTemizle = new System.Windows.Forms.Button();
             this.btnBekleyenIs = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgrwRuloYukleme)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -146,12 +147,22 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(696, 55);
+            this.button1.Location = new System.Drawing.Point(696, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 405);
             this.button1.TabIndex = 2;
             this.button1.Text = "Stok Sahasına Dön";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.Firebrick;
+            this.btnClose.Location = new System.Drawing.Point(717, 461);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(48, 29);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = false;
             // 
             // inteCran
             // 
@@ -159,6 +170,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(800, 499);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -167,6 +179,7 @@
             this.Name = "inteCran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "inteCran";
+            this.Load += new System.EventHandler(this.inteCran_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgrwRuloYukleme)).EndInit();
             this.groupBox2.ResumeLayout(false);
@@ -190,6 +203,7 @@
         private System.Windows.Forms.Button btnTemizle;
         private System.Windows.Forms.Button btnBekleyenIs;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClose;
     }
 }
 

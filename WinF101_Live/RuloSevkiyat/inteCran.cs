@@ -16,5 +16,10 @@ namespace RuloSevkiyat
         {
             InitializeComponent();
         }
+
+        private void inteCran_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

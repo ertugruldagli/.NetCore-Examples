@@ -20,8 +20,8 @@ namespace RuloSevkiyat
             InitializeComponent();
         }
 
-
-        public void ShowData(string SelectTable)
+        #region ShowData
+        private void ShowData(string SelectTable)
         {
             string table = SelectTable;
 
@@ -78,7 +78,9 @@ namespace RuloSevkiyat
                     break;
             }
         }
+        #endregion
 
+        #region PropertyGrid
         private void PropertyGrid()
         {
             dgrwRuloYukleme.RowHeadersVisible = false;
@@ -91,8 +93,9 @@ namespace RuloSevkiyat
             dgrwBekleyenIs.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
         }
+        #endregion
 
-
+        #region Form Load
         private void inteCran_Load(object sender, EventArgs e)
         {
             PropertyGrid();
@@ -101,7 +104,10 @@ namespace RuloSevkiyat
             ShowData("t02");
             ShowData("t03");
         }
+        #endregion
 
-       
+
+
+
     }
 }

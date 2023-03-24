@@ -160,5 +160,32 @@ namespace ADO01
             }
             BindGrid(vs_SQLCommendAna + vs_SQLQuery);
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            ShowData("U");
+        }
+
+        private void ShowData(string prmMode)
+        {
+            //bu method parametrik olacak..
+            //üzerine gelen parametreye göre 
+            // (I veya U) detay sayfasındaki boş duran yerleri datagridden okuyarak doldurulacaktır.
+
+            switch (prmMode)
+            {
+                case "U":
+                    tboxCategory.Text = dgrwProducts.CurrentRow.Cells[1].Value.ToString();
+                    tboxPrice.Text = dgrwProducts.CurrentRow.Cells[4].Value.ToString();
+                    break;
+
+
+                case "I":
+                    break;
+            }
+
+            tabcProducts.SelectedTab = tabcProducts.TabPages[1];
+            
+        }
     }
 }

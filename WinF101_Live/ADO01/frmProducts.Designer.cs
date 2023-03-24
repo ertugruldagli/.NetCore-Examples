@@ -46,11 +46,23 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.tboxCategory = new System.Windows.Forms.TextBox();
             this.comboBoxCategory = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBoxSuppliers = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tboxPrice = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.nudStokCty = new System.Windows.Forms.NumericUpDown();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cboxDiscontinued = new System.Windows.Forms.CheckBox();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.tabcProducts.SuspendLayout();
             this.tabpData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgrwProducts)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabpDetail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudStokCty)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
@@ -179,6 +191,18 @@
             // 
             // tabpDetail
             // 
+            this.tabpDetail.BackColor = System.Drawing.Color.Teal;
+            this.tabpDetail.Controls.Add(this.btnAdd);
+            this.tabpDetail.Controls.Add(this.cboxDiscontinued);
+            this.tabpDetail.Controls.Add(this.label9);
+            this.tabpDetail.Controls.Add(this.nudStokCty);
+            this.tabpDetail.Controls.Add(this.label8);
+            this.tabpDetail.Controls.Add(this.label7);
+            this.tabpDetail.Controls.Add(this.tboxPrice);
+            this.tabpDetail.Controls.Add(this.comboBoxSuppliers);
+            this.tabpDetail.Controls.Add(this.label6);
+            this.tabpDetail.Controls.Add(this.label5);
+            this.tabpDetail.Controls.Add(this.label4);
             this.tabpDetail.Controls.Add(this.comboBoxCategory);
             this.tabpDetail.Controls.Add(this.tboxCategory);
             this.tabpDetail.Location = new System.Drawing.Point(4, 24);
@@ -187,7 +211,6 @@
             this.tabpDetail.Size = new System.Drawing.Size(788, 456);
             this.tabpDetail.TabIndex = 0;
             this.tabpDetail.Text = "Detail";
-            this.tabpDetail.UseVisualStyleBackColor = true;
             // 
             // btnEkle
             // 
@@ -206,6 +229,7 @@
             this.btnUpdate.TabIndex = 9;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -218,19 +242,117 @@
             // 
             // tboxCategory
             // 
-            this.tboxCategory.Location = new System.Drawing.Point(176, 18);
+            this.tboxCategory.Location = new System.Drawing.Point(169, 36);
             this.tboxCategory.Name = "tboxCategory";
-            this.tboxCategory.Size = new System.Drawing.Size(151, 23);
+            this.tboxCategory.Size = new System.Drawing.Size(193, 23);
             this.tboxCategory.TabIndex = 0;
             // 
             // comboBoxCategory
             // 
             this.comboBoxCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCategory.FormattingEnabled = true;
-            this.comboBoxCategory.Location = new System.Drawing.Point(176, 65);
+            this.comboBoxCategory.Location = new System.Drawing.Point(169, 83);
             this.comboBoxCategory.Name = "comboBoxCategory";
             this.comboBoxCategory.Size = new System.Drawing.Size(99, 23);
             this.comboBoxCategory.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(28, 39);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 15);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Product Name: ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(28, 86);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 15);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Category: ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(28, 141);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(84, 15);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Suppliers: ";
+            // 
+            // comboBoxSuppliers
+            // 
+            this.comboBoxSuppliers.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxSuppliers.FormattingEnabled = true;
+            this.comboBoxSuppliers.Location = new System.Drawing.Point(169, 138);
+            this.comboBoxSuppliers.Name = "comboBoxSuppliers";
+            this.comboBoxSuppliers.Size = new System.Drawing.Size(99, 23);
+            this.comboBoxSuppliers.TabIndex = 5;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(28, 195);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 15);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Unit Price: ";
+            // 
+            // tboxPrice
+            // 
+            this.tboxPrice.Location = new System.Drawing.Point(169, 192);
+            this.tboxPrice.Name = "tboxPrice";
+            this.tboxPrice.Size = new System.Drawing.Size(151, 23);
+            this.tboxPrice.TabIndex = 6;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(28, 248);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(105, 15);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Unit In Stok: ";
+            // 
+            // nudStokCty
+            // 
+            this.nudStokCty.Location = new System.Drawing.Point(169, 246);
+            this.nudStokCty.Name = "nudStokCty";
+            this.nudStokCty.Size = new System.Drawing.Size(151, 23);
+            this.nudStokCty.TabIndex = 10;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(28, 302);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(105, 15);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Discontinued: ";
+            // 
+            // cboxDiscontinued
+            // 
+            this.cboxDiscontinued.AutoSize = true;
+            this.cboxDiscontinued.Location = new System.Drawing.Point(169, 302);
+            this.cboxDiscontinued.Name = "cboxDiscontinued";
+            this.cboxDiscontinued.Size = new System.Drawing.Size(15, 14);
+            this.cboxDiscontinued.TabIndex = 12;
+            this.cboxDiscontinued.UseVisualStyleBackColor = true;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAdd.Location = new System.Drawing.Point(201, 340);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(99, 24);
+            this.btnAdd.TabIndex = 2;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = false;
             // 
             // frmProducts
             // 
@@ -253,6 +375,7 @@
             this.groupBox1.PerformLayout();
             this.tabpDetail.ResumeLayout(false);
             this.tabpDetail.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudStokCty)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -277,5 +400,16 @@
         private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.ComboBox comboBoxCategory;
         private System.Windows.Forms.TextBox tboxCategory;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.CheckBox cboxDiscontinued;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.NumericUpDown nudStokCty;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox tboxPrice;
+        private System.Windows.Forms.ComboBox comboBoxSuppliers;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
     }
 }

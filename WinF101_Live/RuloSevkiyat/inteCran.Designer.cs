@@ -65,12 +65,12 @@
             this.dgrwRuloYukleme.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgrwRuloYukleme.Location = new System.Drawing.Point(6, 19);
             this.dgrwRuloYukleme.Name = "dgrwRuloYukleme";
-            this.dgrwRuloYukleme.Size = new System.Drawing.Size(474, 114);
+            this.dgrwRuloYukleme.Size = new System.Drawing.Size(496, 114);
             this.dgrwRuloYukleme.TabIndex = 1;
             // 
             // btnRuloYukle
             // 
-            this.btnRuloYukle.Location = new System.Drawing.Point(508, 16);
+            this.btnRuloYukle.Location = new System.Drawing.Point(523, 19);
             this.btnRuloYukle.Name = "btnRuloYukle";
             this.btnRuloYukle.Size = new System.Drawing.Size(122, 51);
             this.btnRuloYukle.TabIndex = 0;
@@ -94,12 +94,12 @@
             this.dgrwRuloSevketme.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgrwRuloSevketme.Location = new System.Drawing.Point(6, 19);
             this.dgrwRuloSevketme.Name = "dgrwRuloSevketme";
-            this.dgrwRuloSevketme.Size = new System.Drawing.Size(474, 114);
+            this.dgrwRuloSevketme.Size = new System.Drawing.Size(496, 114);
             this.dgrwRuloSevketme.TabIndex = 2;
             // 
             // btnRuloSevket
             // 
-            this.btnRuloSevket.Location = new System.Drawing.Point(508, 19);
+            this.btnRuloSevket.Location = new System.Drawing.Point(523, 19);
             this.btnRuloSevket.Name = "btnRuloSevket";
             this.btnRuloSevket.Size = new System.Drawing.Size(122, 51);
             this.btnRuloSevket.TabIndex = 1;
@@ -124,12 +124,12 @@
             this.dgrwBekleyenIs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgrwBekleyenIs.Location = new System.Drawing.Point(6, 19);
             this.dgrwBekleyenIs.Name = "dgrwBekleyenIs";
-            this.dgrwBekleyenIs.Size = new System.Drawing.Size(474, 114);
+            this.dgrwBekleyenIs.Size = new System.Drawing.Size(496, 114);
             this.dgrwBekleyenIs.TabIndex = 3;
             // 
             // btnTemizle
             // 
-            this.btnTemizle.Location = new System.Drawing.Point(508, 87);
+            this.btnTemizle.Location = new System.Drawing.Point(523, 85);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(122, 29);
             this.btnTemizle.TabIndex = 3;
@@ -138,7 +138,7 @@
             // 
             // btnBekleyenIs
             // 
-            this.btnBekleyenIs.Location = new System.Drawing.Point(508, 19);
+            this.btnBekleyenIs.Location = new System.Drawing.Point(523, 19);
             this.btnBekleyenIs.Name = "btnBekleyenIs";
             this.btnBekleyenIs.Size = new System.Drawing.Size(122, 51);
             this.btnBekleyenIs.TabIndex = 2;

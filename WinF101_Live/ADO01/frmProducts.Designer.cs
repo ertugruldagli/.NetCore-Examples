@@ -41,16 +41,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tboxQProductName = new System.Windows.Forms.TextBox();
             this.tabpDetail = new System.Windows.Forms.TabPage();
+            this.btnEkle = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.tboxCategory = new System.Windows.Forms.TextBox();
+            this.comboBoxCategory = new System.Windows.Forms.ComboBox();
             this.tabcProducts.SuspendLayout();
             this.tabpData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgrwProducts)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.tabpDetail.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.Location = new System.Drawing.Point(738, 475);
+            this.btnClose.Location = new System.Drawing.Point(757, 502);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(69, 36);
@@ -66,17 +72,20 @@
             this.tabcProducts.Location = new System.Drawing.Point(12, 12);
             this.tabcProducts.Name = "tabcProducts";
             this.tabcProducts.SelectedIndex = 0;
-            this.tabcProducts.Size = new System.Drawing.Size(796, 442);
+            this.tabcProducts.Size = new System.Drawing.Size(796, 484);
             this.tabcProducts.TabIndex = 1;
             // 
             // tabpData
             // 
+            this.tabpData.Controls.Add(this.btnDelete);
+            this.tabpData.Controls.Add(this.btnUpdate);
+            this.tabpData.Controls.Add(this.btnEkle);
             this.tabpData.Controls.Add(this.dgrwProducts);
             this.tabpData.Controls.Add(this.groupBox1);
             this.tabpData.Location = new System.Drawing.Point(4, 24);
             this.tabpData.Name = "tabpData";
             this.tabpData.Padding = new System.Windows.Forms.Padding(3);
-            this.tabpData.Size = new System.Drawing.Size(788, 414);
+            this.tabpData.Size = new System.Drawing.Size(788, 456);
             this.tabpData.TabIndex = 1;
             this.tabpData.Text = "General";
             this.tabpData.UseVisualStyleBackColor = true;
@@ -170,20 +179,65 @@
             // 
             // tabpDetail
             // 
+            this.tabpDetail.Controls.Add(this.comboBoxCategory);
+            this.tabpDetail.Controls.Add(this.tboxCategory);
             this.tabpDetail.Location = new System.Drawing.Point(4, 24);
             this.tabpDetail.Name = "tabpDetail";
             this.tabpDetail.Padding = new System.Windows.Forms.Padding(3);
-            this.tabpDetail.Size = new System.Drawing.Size(788, 414);
+            this.tabpDetail.Size = new System.Drawing.Size(788, 456);
             this.tabpDetail.TabIndex = 0;
             this.tabpDetail.Text = "Detail";
             this.tabpDetail.UseVisualStyleBackColor = true;
+            // 
+            // btnEkle
+            // 
+            this.btnEkle.Location = new System.Drawing.Point(16, 414);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(83, 23);
+            this.btnEkle.TabIndex = 8;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.UseVisualStyleBackColor = true;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(127, 414);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(83, 23);
+            this.btnUpdate.TabIndex = 9;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(239, 414);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(83, 23);
+            this.btnDelete.TabIndex = 10;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
+            // tboxCategory
+            // 
+            this.tboxCategory.Location = new System.Drawing.Point(176, 18);
+            this.tboxCategory.Name = "tboxCategory";
+            this.tboxCategory.Size = new System.Drawing.Size(151, 23);
+            this.tboxCategory.TabIndex = 0;
+            // 
+            // comboBoxCategory
+            // 
+            this.comboBoxCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxCategory.FormattingEnabled = true;
+            this.comboBoxCategory.Location = new System.Drawing.Point(176, 65);
+            this.comboBoxCategory.Name = "comboBoxCategory";
+            this.comboBoxCategory.Size = new System.Drawing.Size(99, 23);
+            this.comboBoxCategory.TabIndex = 1;
             // 
             // frmProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(820, 523);
+            this.ClientSize = new System.Drawing.Size(827, 540);
             this.Controls.Add(this.tabcProducts);
             this.Controls.Add(this.btnClose);
             this.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -197,6 +251,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgrwProducts)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.tabpDetail.ResumeLayout(false);
+            this.tabpDetail.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -216,5 +272,10 @@
         private System.Windows.Forms.ComboBox cboxQSuppliers;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnQuery;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnEkle;
+        private System.Windows.Forms.ComboBox comboBoxCategory;
+        private System.Windows.Forms.TextBox tboxCategory;
     }
 }

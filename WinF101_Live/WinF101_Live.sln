@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicturesBox", "PicturesBox\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO01", "ADO01\ADO01.csproj", "{4233A9F4-48C6-4F15-A07F-F67315B28B1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuloSevkiyat", "RuloSevkiyat\RuloSevkiyat.csproj", "{FAD9EE62-7EE0-4BC5-8C5D-2850A76977E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4233A9F4-48C6-4F15-A07F-F67315B28B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4233A9F4-48C6-4F15-A07F-F67315B28B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4233A9F4-48C6-4F15-A07F-F67315B28B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD9EE62-7EE0-4BC5-8C5D-2850A76977E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD9EE62-7EE0-4BC5-8C5D-2850A76977E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD9EE62-7EE0-4BC5-8C5D-2850A76977E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD9EE62-7EE0-4BC5-8C5D-2850A76977E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

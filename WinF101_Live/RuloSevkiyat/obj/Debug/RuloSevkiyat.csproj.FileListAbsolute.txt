@@ -1,0 +1,11 @@
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\bin\Debug\RuloSevkiyat.exe.config
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\bin\Debug\RuloSevkiyat.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\bin\Debug\RuloSevkiyat.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.csproj.SuggestedBindingRedirects.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.inteCran.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.Properties.Resources.resources
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.csproj.GenerateResource.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.exe
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.pdb

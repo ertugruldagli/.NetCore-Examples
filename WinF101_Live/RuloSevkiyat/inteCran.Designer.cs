@@ -67,7 +67,7 @@
             this.dgrwRuloYukleme.Name = "dgrwRuloYukleme";
             this.dgrwRuloYukleme.Size = new System.Drawing.Size(496, 114);
             this.dgrwRuloYukleme.TabIndex = 1;
-            // 
+            this.dgrwRuloYukleme.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgrwRuloYukleme_CellDoubleClick);
             // btnRuloYukle
             // 
             this.btnRuloYukle.Location = new System.Drawing.Point(523, 19);
@@ -76,6 +76,7 @@
             this.btnRuloYukle.TabIndex = 0;
             this.btnRuloYukle.Text = "RULO YÜKLE";
             this.btnRuloYukle.UseVisualStyleBackColor = true;
+            this.btnRuloYukle.Click += new System.EventHandler(this.btnRuloYukle_Click);
             // 
             // groupBox2
             // 
@@ -117,7 +118,7 @@
             this.groupBox3.Size = new System.Drawing.Size(651, 146);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Bekleyem İşler";
+            this.groupBox3.Text = "Bekleyen İşler";
             // 
             // dgrwBekleyenIs
             // 

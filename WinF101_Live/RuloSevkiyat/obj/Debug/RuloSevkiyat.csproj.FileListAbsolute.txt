@@ -9,3 +9,4 @@ C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevk
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.csproj.CoreCompileInputs.cache
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.exe
 C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.pdb
+C:\UCC08\Projects\.NetCore-Examples\WinF101_Live\RuloSevkiyat\obj\Debug\RuloSevkiyat.frmRuloYukleme.resources

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace RuloSevkiyat
 {
@@ -15,12 +16,13 @@ namespace RuloSevkiyat
     {
         // sql bağlantı değişkeni
 
-        SqlConnection connection = new SqlConnection(@"Data Source=ED-INTERN;Initial Catalog=iCraneDB;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=ED-INTERN;Initial Catalog=iCrane;Integrated Security=True");
 
         public inteCran()
         {
             InitializeComponent();
         }
+
 
         #region ShowData
         private void ShowData(string SelectTable)
@@ -82,6 +84,7 @@ namespace RuloSevkiyat
         }
         #endregion
 
+
         #region PropertyGrid
         private void PropertyGrid()
         {
@@ -97,6 +100,7 @@ namespace RuloSevkiyat
         }
         #endregion
 
+
         #region Form Load
         private void inteCran_Load(object sender, EventArgs e)
         {
@@ -106,10 +110,42 @@ namespace RuloSevkiyat
             ShowData("t02");
             ShowData("t03");
         }
+
+
+
         #endregion
 
+        private void btnRuloYukle_Click(object sender, EventArgs e)
+        {
+            GetRuloYukleme();
+        }
+
+        private void dgrwRuloYukleme_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            GetRuloYukleme();
+        }
+
+        private void GetRuloYukleme()
+        {
+            frmRuloYukleme ruloYukleme = new frmRuloYukleme();
+
+            ruloYukleme.tboxCoilID.Text = dgrwRuloYukleme.CurrentRow.Cells[0].Value.ToString();
+            ruloYukleme.tboxCoilW.Text = dgrwRuloYukleme.CurrentRow.Cells[3].Value.ToString();
+            ruloYukleme.tboxCoilD.Text = dgrwRuloYukleme.CurrentRow.Cells[2].Value.ToString();
 
 
 
+            ruloYukleme.ShowDialog();
+        }
+
+        private void UygunYerBul()
+        {
+            frmRuloYukleme frm = new frmRuloYukleme();
+
+            int coilW=int.Parse(frm.tboxCoilW.Text);
+            int coilD = int.Parse(frm.tboxCoilD.Text);
+
+
+;        }
     }
 }

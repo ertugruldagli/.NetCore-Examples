@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmRuloYukleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRuloYukleme.Designer.cs">
+      <DependentUpon>frmRuloYukleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="inteCran.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmRuloYukleme.resx">
+      <DependentUpon>frmRuloYukleme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="inteCran.resx">
       <DependentUpon>inteCran.cs</DependentUpon>
     </EmbeddedResource>

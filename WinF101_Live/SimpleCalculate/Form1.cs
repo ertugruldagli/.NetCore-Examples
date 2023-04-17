@@ -104,5 +104,10 @@ namespace SimpleCalculate
 
             cboxControl.SelectedIndex = 0;
         }
+
+        private void cboxControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

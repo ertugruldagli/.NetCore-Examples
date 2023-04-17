@@ -123,6 +123,7 @@
             this.cboxControl.Name = "cboxControl";
             this.cboxControl.Size = new System.Drawing.Size(60, 21);
             this.cboxControl.TabIndex = 7;
+            this.cboxControl.SelectedIndexChanged += new System.EventHandler(this.cboxControl_SelectedIndexChanged);
             // 
             // label4
             // 

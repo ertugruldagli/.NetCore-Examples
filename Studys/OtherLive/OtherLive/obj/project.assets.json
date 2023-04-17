@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UCC08\\Projects\\.NetCore-Examples\\Studys\\OtherLive\\OtherLive\\OtherLive.csproj",
-      "projectName": "OtherLive",
-      "projectPath": "C:\\UCC08\\Projects\\.NetCore-Examples\\Studys\\OtherLive\\OtherLive\\OtherLive.csproj",
+      "projectUniqueName": "C:\\UCC08\\Projects\\.NetCore-Examples\\Studys\\OtherLive\\OtherLive\\Generics.csproj",
+      "projectName": "Generics",
+      "projectPath": "C:\\UCC08\\Projects\\.NetCore-Examples\\Studys\\OtherLive\\OtherLive\\Generics.csproj",
       "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
       "outputPath": "C:\\UCC08\\Projects\\.NetCore-Examples\\Studys\\OtherLive\\OtherLive\\obj\\",
       "projectStyle": "PackageReference",

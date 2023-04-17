@@ -1,0 +1,15 @@
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\bin\Debug\net6.0\Generics.exe
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\bin\Debug\net6.0\Generics.deps.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\bin\Debug\net6.0\Generics.runtimeconfig.json
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\bin\Debug\net6.0\Generics.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\bin\Debug\net6.0\Generics.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.csproj.AssemblyReference.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.AssemblyInfoInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.AssemblyInfo.cs
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.csproj.CoreCompileInputs.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\refint\Generics.dll
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.pdb
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\Generics.genruntimeconfig.cache
+C:\UCC08\Projects\.NetCore-Examples\Studys\OtherLive\OtherLive\obj\Debug\net6.0\ref\Generics.dll

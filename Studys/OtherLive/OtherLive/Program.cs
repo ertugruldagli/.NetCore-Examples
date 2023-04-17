@@ -19,7 +19,7 @@
         Example_3.example_2(56.23);
 
 
-
+        Console.ReadKey();
 
 
     }
@@ -32,7 +32,8 @@
 
         public void examaple_2(int parameter)
         {
-            Console.WriteLine("Parametre değeri: " + parameter);
+            Console.WriteLine("Parametre değeri: " + parameter + "\n");
+            
         }
     
     }

@@ -23,6 +23,27 @@ namespace MvcViews.Controllers
             return View();
         }
 
+        [HttpGet] // Http get Methoduyla sayfayı getiriyuorum.
+        public IActionResult Personel()
+        {
+            return View();
+        }
+
+        [HttpPost]
+
+        public IActionResult Personel(Personel personel)
+        {
+            if (ModelState.IsValid)
+            {
+                string personelBilgi = "";
+
+                personelBilgi = "Personel bilgileri(Ad, Soyad, Yas): " + personel.Ad + personel.Soyad + personel.Yas;
+
+                ViewBag.Mesaj=personelBilgi;
+            }
+            return View(personel);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

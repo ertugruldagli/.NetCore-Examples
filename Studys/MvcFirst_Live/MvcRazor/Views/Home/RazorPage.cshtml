@@ -5,3 +5,21 @@
 
 <h1>RazorPage</h1>
 
+@{
+    string bosluk = " ";
+
+    string[] names = new string[]
+    {
+    "Umit",
+    "KARAVİCİ"
+    };
+
+    foreach (var item in names)
+    {
+        //@item //ekrana yazacak 
+
+        @item@bosluk
+
+       // @item@: //kısa yol kullanımı
+    }
+}

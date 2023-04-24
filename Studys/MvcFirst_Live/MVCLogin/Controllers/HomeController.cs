@@ -23,6 +23,25 @@ namespace MVCLogin.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(Login login )
+        {
+            if (login.UserID=="admin"&& login.Password=="1234")
+            {
+                ViewBag.Mesaj = "Tebrikler giriş başarılı";
+            }
+            else{
+                ViewBag.Mesaj = "Kullanıcı adı veya şifre ynalış";
+            }
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
